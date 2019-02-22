@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MatToolbarModule } from '@angular/material/toolbar';
 import { Router } from '@angular/router';
+import { GuestService } from './guest/guest.service';
 
 @Component({
   selector: 'app-root',
@@ -12,30 +12,14 @@ export class AppComponent implements OnInit {
   title = 'Welcome To Liberty Con 32!';
   navLinks: any[];
   activeLinkIndex = -1;
-  constructor(private router: Router) {
-    this.navLinks = [
-      {
-        label: 'Guests Of Honor',
-        link: './GOH',
-        index: 0
-      }, {
-        label: 'Authors',
-        link: './Authors',
-        index: 1
-      }, {
-        label: 'Artists',
-        link: './Artists',
-        index: 2
-      }, {
-        label: 'Scientists',
-        link: './Scientists',
-        index: 3
-      },
-    ];
+  constructor(private router: Router, private guestService: GuestService) { }
+  data: any;
+
+  ngOnInit() {
+    this.getData();
   }
-  ngOnInit(): void {
-    this.router.events.subscribe((res) => {
-      this.activeLinkIndex = this.navLinks.indexOf(this.navLinks.find(tab => tab.link === '.' + this.router.url));
-    });
+
+  getData(): void {
+    this.guestService.get().subscribe(data => console.log(data));
   }
 }

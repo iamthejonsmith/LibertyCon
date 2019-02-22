@@ -1,8 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-
-.title {
-    text-align: center
+body{
+    margin: 0%;
 }
 .loading {
     opacity: 0;
@@ -25,3 +24,11 @@ app-root:empty + .loading {
     color: #eee;
     margin-bottom: 50px;
   }
+
+  #tabs .mat-tab-label {
+    min-width : 0px;
+     width: 167px;
+     height: 42px;
+     border-radius: 3px;
+     background-color: gray;
+   }

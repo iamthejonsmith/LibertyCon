@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-splash',
@@ -6,10 +9,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./splash.component.css']
 })
 export class SplashComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+  title = 'Liberty Con 32!';
+  navLinks: any[];
+  activeLinkIndex = -1;
+  constructor(private router: Router) { }
+  ngOnInit() { }
 
 }

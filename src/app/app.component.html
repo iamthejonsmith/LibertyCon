@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>LibertyCon3</title>
+  <title>LibertyCon 32</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -9,17 +9,48 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-  <img width="300" alt="LibCon32" src="../assets/img/LibCon3Splash.png">
+  <img width="98%" alt="LibCon32" src="../assets/img/LibCon3Splash.png">
 </div>
 <span>
   <div>
-    <h2><a target="_blank" rel="noopener" href="#" style='align-content: center'>Visit Liberty Con Website</a></h2>
+    <h2><a target="_blank" rel="noopener" href="http://www.libertycon.org" style='align-content: center'>Visit Liberty
+        Con Website</a></h2>
   </div>
 </span>
-<!-- selector from app.component.ts -->
-<nav mat-tab-nav-bar>
-  <a mat-tab-link *ngFor='let link of navLinks' [routerLink]='link.link' routerLinkActive #rla='routerLinkActive'
-    [active]='rla.isActive'> {{ link.label }}
-  </a>
-</nav>
-<router-outlet></router-outlet>
+<div>
+  <mat-toolbar color="primary">
+    <div fxShow="true" fxHide.gt-sm="true">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <i class="material-icons">menu</i>
+      </button>
+    </div>
+
+    <a mat-raised-button class="companyName" routerLink="/">
+      <span>Liberty Con 32</span>
+    </a>
+    <span class="example-spacer"></span>
+    <div fxShow="true" fxHide.lt-md="true">
+      <a mat-button routerLink="/GOH">GOH</a>
+      <a mat-button routerLink="/Authors">Authors</a>
+      <a mat-button routerLink="/Artists">Artists</a>
+      <a mat-button routerLink="/Scientists">Scientists</a>
+      <a mat-button routerLink="/ContactUs">Contact Us</a>
+    </div>
+
+  </mat-toolbar>
+  <mat-sidenav-container fxFlexFill class="example-container">
+    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over" opened="false" fxHide.gt-sm="true"
+      (click)="sidenav.toggle()">
+      <div fxLayout="column">
+        <a mat-button routerLink="/GOH">GOH</a>
+        <a mat-button routerLink="/Authors">Authors</a>
+        <a mat-button routerLink="/Artists">Artists</a>
+        <a mat-button routerLink="/Scientists">Scientists</a>
+        <a mat-button routerLink="/ContactUs">Contact Us</a>
+      </div>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

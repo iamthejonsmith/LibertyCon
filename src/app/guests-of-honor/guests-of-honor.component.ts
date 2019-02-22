@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Guest } from '../guest';
-import { GUESTS } from '../mock-guests';
+import { Guest } from '../guest/guest';
 
 @Component({
   selector: 'app-guests-of-honor',
@@ -9,18 +8,10 @@ import { GUESTS } from '../mock-guests';
 })
 export class GuestsOfHonorComponent implements OnInit {
 
-  guests = GUESTS;
-  selectedGuest: Guest;
-
-  guest: Guest = {
-    id: 1,
-    name: 'Tolkein'
-  };
 
   constructor() { }
 
-  onSelect(guest: Guest): void {
-    this.selectedGuest = guest;
+  onSelect(): void {
   }
 
   ngOnInit() {
