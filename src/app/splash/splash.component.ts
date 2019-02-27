@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./splash.component.css']
 })
 export class SplashComponent implements OnInit {
-  title = 'Liberty Con 32!';
+  title = 'Liberty Con 32';
   navLinks: any[];
   activeLinkIndex = -1;
   constructor(private router: Router) { }

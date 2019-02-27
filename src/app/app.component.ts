@@ -9,17 +9,19 @@ import { GuestService } from './guest/guest.service';
 })
 
 export class AppComponent implements OnInit {
-  title = 'Welcome To Liberty Con 32!';
+  title = 'Liberty Con 32';
   navLinks: any[];
   activeLinkIndex = -1;
-  constructor(private router: Router, private guestService: GuestService) { }
   data: any;
+
+  constructor(private router: Router, private guestService: GuestService) { }
+
+  getData(): void {
+    this.guestService.get().subscribe(data => console.log(data));
+  }
 
   ngOnInit() {
     this.getData();
   }
 
-  getData(): void {
-    this.guestService.get().subscribe(data => console.log(data));
-  }
 }
