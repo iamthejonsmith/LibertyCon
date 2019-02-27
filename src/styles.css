@@ -16,19 +16,19 @@ body{
 }
 
 app-root:empty + .loading {
-    opacity: 1;
-    z-index: 100;
-  }
-  app-root:empty + .loading h1 {
-    font-family: "courier", monospace;
-    color: #eee;
-    margin-bottom: 50px;
-  }
+  opacity: 1;
+  z-index: 100;
+}
+app-root:empty + .loading h1 {
+  font-family: "courier", monospace;
+  color: #eee;
+  margin-bottom: 50px;
+}
 
-  #tabs .mat-tab-label {
-    min-width : 0px;
-     width: 167px;
-     height: 42px;
-     border-radius: 3px;
-     background-color: gray;
-   }
+#tabs .mat-tab-label {
+  min-width : 0px;
+  width: 167px;
+  height: 42px;
+  border-radius: 3px;
+  background-color: gray;
+}
