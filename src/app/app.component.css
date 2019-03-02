@@ -7,12 +7,22 @@
   height: 6vh;
 }
 
+.mat-toolbar.mat-primary {
+  background: #463131;
+  color: #efe5d5;
+}
+
 div {
   overflow: inherit;
 }
 
 .mat-sidenav-container{
   background-color: #efe5d5;
+  min-height: 93vh !important;
+}
+
+.mat-sidenav{
+  background-color:  #efe5d5;
   min-height: 93vh !important;
 }
 
@@ -38,4 +48,14 @@ button{
 .mat-sidenav-content{
   font-size: 200%;
   text-align: center;
+}
+
+.title {
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.body {
+  font-size: .75em;
 }

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Guest } from '../guest/guest';
 
 @Component({
   selector: 'app-guests-of-honor',

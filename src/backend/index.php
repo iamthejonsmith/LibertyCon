@@ -5,7 +5,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 
 $localhost = "127.0.0.1"; 
 $username = "iamthejonsmith"; 
-$password = "root"; 
+$password = "LibertyC0n1932!"; 
 $dbname = "libertycon.org"; 
 
 // get the HTTP method, path and body of the request

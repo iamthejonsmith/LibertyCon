@@ -8,6 +8,7 @@ import { GuestsOfHonorComponent } from './guests-of-honor/guests-of-honor.compon
 import { ScientificGuestsComponent } from './scientific-guests/scientific-guests.component';
 import { SplashComponent } from './splash/splash.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { EventListComponent } from './event-list/event-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/Splash', pathMatch: 'full' },
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'Authors', component: AuthorGuestsComponent },
   { path: 'Artists', component: ArtistGuestsComponent },
   { path: 'Scientists', component: ScientificGuestsComponent },
-  { path: 'ContactUs', component: ContactUsComponent }
+  { path: 'ContactUs', component: ContactUsComponent },
+  { path: 'EventList', component: EventListComponent }
 ];
 export const appRouting = RouterModule.forRoot(routes);
 

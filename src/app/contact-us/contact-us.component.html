@@ -1,3 +1,57 @@
-<p>
-  contact-us works!
-</p>
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Liberty Con FeedBack</h3>
+        <form [formGroup]="feedbackForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label>Name: </label>
+            <input type="text" formControlName="fullName" class="form-control"
+              [ngClass]="{ 'is-invalid': submitted && f.fullName.errors }" />
+            <div *ngIf="submitted && f.fullName.errors" class="invalid-feedback">
+              <div class="error" *ngIf="f.fullName.errors.required">*Required</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Number: </label>
+            <input type="text" formControlName="phoneNumber" class="form-control"
+              [ngClass]="{ 'is-invalid': submitted && f.phoneNumber.errors }" />
+            <div *ngIf="submitted && f.phoneNumber.errors" class="invalid-feedback">
+              <div class="error" *ngIf="f.phoneNumber.errors.required">*Required</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email: </label>
+            <input type="text" formControlName="email" class="form-control"
+              [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+              <div class="error" *ngIf="f.email.errors.required">*Required</div>
+              <div class="error" *ngIf="f.email.errors.email">Email must be a valid email address</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Notes: </label>
+            <input type="textarea" class="form-control" formControlName="comments" rows="5"
+              placeholder="Add additional notes here.">
+          </div>
+          <div class="form-group">
+            <button class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- credits -->
+<div class='text'>
+  <p>Thank you for visiting Liberty Con!</p>
+  <p>We sincerely hope you have enjoyed your time with us. If you have any questions,
+    comments, or suggestions, feel free to contacts us using the form on this page!
+  </p>
+  <p>
+    <a href="http://www.libertycon.org" target="_top">Liberty Con</a>
+  </p>
+  <p>
+    <a href="http://www.creativeNativeCodingInc.com" target="_top">Creative Native Coding, Inc.</a>
+  </p>
+</div>
