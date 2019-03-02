@@ -20,6 +20,8 @@ import { SplashComponent } from './splash/splash.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { EventListComponent } from './event-list/event-list.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     ArtistGuestsComponent,
     ScientificGuestsComponent,
     SplashComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    EventListComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +47,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     FlexLayoutModule,
     AngularFontAwesomeModule,
     HttpClientModule,
+    ReactiveFormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],

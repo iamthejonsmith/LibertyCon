@@ -7,6 +7,11 @@
   height: 6vh;
 }
 
+.mat-toolbar.mat-primary {
+  background: #463131;
+  color: #efe5d5;
+}
+
 div {
   overflow: inherit;
 }
