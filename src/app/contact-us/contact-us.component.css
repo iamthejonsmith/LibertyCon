@@ -11,11 +11,11 @@
   }
 
   .text {
-      font-size: 0.75em;
-      font-style: italic;
-      text-align: center;
-      align-content: center;
-      width: 95%;
+    font-size: 0.75em;
+    font-style: italic;
+    text-align: center;
+    align-content: center;
+    width: 95%;
   }
 
 form {
@@ -24,32 +24,43 @@ margin: 0 auto;
 }
 
 label, input {
-    /* in order to define widths */
-    display: inline-block;
+  /* in order to define widths */
+  display: inline-block;
 }
 
 label {
-    width: 30%;
-    /* positions the label text beside the input */
-    text-align: right;
+  width: 30%;
+  /* positions the label text beside the input */
+  text-align: right;
 }
 
 label + input {
-    width: 50%;
-    /* large margin-right to force the next element to the new-line
-       and margin-left to create a gutter between the label and input */
-    margin: 0 10% 0 4%;
+  width: 50%;
+  line-height: 2;
+  vertical-align: middle;
+  /* large margin-right to force the next element to the new-line
+      and margin-left to create a gutter between the label and input */
+  margin: 0 10% 0 4%;
+}
+
+label + textarea {
+  width: 50%;
+  line-height: 2;
+  vertical-align: middle;
+  /* large margin-right to force the next element to the new-line
+      and margin-left to create a gutter between the label and input */
+  margin: 3% 10% 0 4%;
 }
 
 /* only the submit button is matched by this selector,
    but to be sure you could use an id or class for that button */
 input + input {
-    float: right;
+  float: right;
 }
 
 .error {
-    font-size: .5em;
-    font-style: italic;
-    color: red;
+  font-size: .5em;
+  font-style: italic;
+  color: red;
 }
 
