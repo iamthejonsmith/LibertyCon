@@ -20,4 +20,4 @@ setTimeout(() => {
 
     // Otherise, log the boot error
   }).catch(err => console.error(err));
-}, 4000);
+}, 6000);
