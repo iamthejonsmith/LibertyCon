@@ -1,4 +1,9 @@
 <div class='title'> Liberty Con Artists</div>
 <div class='body'>
-  <p>Artists willbe spotlighted on this page!</p>
+  <div *ngFor="let val of artists">
+    {{val.name}}
+    <br />{{val.date}}
+    <br />{{val.time}}
+    <br />{{val.desc}}
+  </div>
 </div>
