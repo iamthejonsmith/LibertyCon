@@ -22,6 +22,7 @@ import { environment } from '../environments/environment';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EventListComponent } from './event-list/event-list.component';
+import { Globals } from './factory.service';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,7 @@ import { EventListComponent } from './event-list/event-list.component';
     ReactiveFormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [Globals],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
