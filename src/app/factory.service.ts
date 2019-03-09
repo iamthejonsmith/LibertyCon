@@ -6,7 +6,9 @@ import { Injectable } from '@angular/core';
 export class FactoryService {
   constructor() { }
 }
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class Globals {
   schedule: any[] = [];
 }

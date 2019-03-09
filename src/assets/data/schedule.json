@@ -1,377 +1,377 @@
 {
-    "type": "table",
-    "name": "schedule",
-    "database": "libertycon_org",
-    "data": [
-        {
-            "id": "27",
-            "name": "Opening Ceremonies",
-            "desc": "<p>\n\tTake advantage of the opportunity to meet the LibertyCon Guests and Staff and listen to our Guests of Honor speak!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "17:00:00",
-            "length": "90",
-            "loc": "4",
-            "type": "4"
-        },
-        {
-            "id": "284",
-            "name": "Author's Alley (Ayres, Boop, McKeown, Schroeder, Weyand)",
-            "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "15:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "278",
-            "name": "Author's \/ Artist's Alley (MJ Allen, K&K Evans, Frost, C. Kennedy, Lewis )",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "19:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "279",
-            "name": "Author's \/ Artist's Alley (David Butler, J.D. Jordan, Lewis, Malone, Sommercorn)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "21:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "277",
-            "name": "Author's Alley (Burkhead, K & K Evans, Grant, Lowery, Spriggs)",
-            "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "18:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "276",
-            "name": "Author's Alley (Bragg\/Dan Butler, Gallagher, Jones, Ikenberry, J. Osborne)",
-            "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "16:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "295",
-            "name": "Author's \/ Artist's Alley (M.J. Allen, Q.J. Allen, David Butler, McClure, Lewis )",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "20:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "292",
-            "name": "Author's\/ Artist's Alley (H.P. & Jacob Holo, L. Johnson, Makepeace, Montgomery, Schroeder)",
-            "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "14:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "293",
-            "name": "Author's\/Artist's Alley (Hoch, Makepeace, S. Osborn, Rinehart, Schroeder)",
-            "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "13:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "364",
-            "name": "Author's Alley (David Butler, Gibbons, Mandragora, Meany, William A. Webb)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-05-31",
-            "time": "22:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "350",
-            "name": "Baen Dinner",
-            "desc": "<p>\n\tBaen Dinner - private event<\/p>\n",
-            "date": "2019-06-01",
-            "time": "18:00:00",
-            "length": "180",
-            "loc": "2",
-            "type": "4"
-        },
-        {
-            "id": "34",
-            "name": "Mad Scientist Roundtable",
-            "desc": "<p>\n\tRoundtable discussion of various and timely science topics moderated by Les Johnson. This is a remarkable panel dating back to the earliest LibertyCons. Everyone gets a say but no one gets to say too much.<\/p>\n",
-            "date": "2019-06-01",
-            "time": "23:00:00",
-            "length": "120",
-            "loc": "8",
-            "type": "7"
-        },
-        {
-            "id": "67",
-            "name": "NASA Update",
-            "desc": "<p>\n\tLes Johnson on what has happened in the past year in Space, and what might happen in the coming years.<\/p>\n",
-            "date": "2019-06-01",
-            "time": "10:00:00",
-            "length": "60",
-            "loc": "8",
-            "type": "5"
-        },
-        {
-            "id": "99",
-            "name": "Baen Traveling Roadshow and Prize Patrol",
-            "desc": "<p>\n\tToni Weisskopf will be running the crowd through the best of what&#39;s going on in the Baen universe. (And there will be giveaways!)<\/p>\n",
-            "date": "2019-06-01",
-            "time": "14:00:00",
-            "length": "120",
-            "loc": "4",
-            "type": "5"
-        },
-        {
-            "id": "176",
-            "name": "Reading:  The Writing Hoyts with David Pascoe",
-            "desc": "<p>\n\tSarah, Daniel and Robert Hoyt read from their works, along with David Pascoe.<\/p>\n",
-            "date": "2019-06-01",
-            "time": "01:00:00",
-            "length": "60",
-            "loc": "11",
-            "type": "2"
-        },
-        {
-            "id": "282",
-            "name": "Author's \/ Artist's Alley (Carpenter, Coe\/Jackson, Cordova, Spriggs, James Ward)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "12:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "280",
-            "name": "Author's \/ Artist's Alley (M. Fontaine, T. Hoch, C. Metcalf, C. Sanderson, William Webb)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "10:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "275",
-            "name": "Author's Alley (Carpenter, Coe\/Jackson, Cordova, Spriggs, James Ward)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "13:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "313",
-            "name": "Author's \/ Artist's Alley (Dandridge, Holmes, Humphreys, Sherrer)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "21:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "296",
-            "name": "Author's \/ Artist's Alley (Q. Allen, Dandridge, Holmes, Humphreys)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "22:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "248",
-            "name": "What's New from Steve Jackson Games",
-            "desc": "<p>\n\tSteve Jackson dishes on the latest developments from his secret games laboratory. He will even sign autographs. Come one, come all!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "16:00:00",
-            "length": "60",
-            "loc": "8",
-            "type": "5"
-        },
-        {
-            "id": "285",
-            "name": "Author's Alley (Burkhead, Carpenter, C. Kennedy, S. Hoyt, James Ward)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "14:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "286",
-            "name": "Author's \/ Artist's Alley (Baird\/M. Miller, Gibbons, L. Johnson, Maggert, Mandragora)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "16:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "287",
-            "name": "Author's \/ Artist's Alley (M. J. Allen, Ayres, McClure, S. Osborn, Swann)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "17:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "288",
-            "name": "Author's \/ Artist's Alley (Curtis, Del Arroz, T. Howard\/M, Wyers, Lowery, Weyand)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "18:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "289",
-            "name": "Author's \/ Artist's Alley (Beckwith, Del Arroz, T. Howard\/M. Wyers, Sherrer, Sommercorn )",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "19:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "290",
-            "name": "Author's \/ Artist's Alley (Hollifield, JD Jordan, Malone, Metcalf, Sherrer)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "20:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "291",
-            "name": "Author's \/ Artist's Alley (Frost, Grant, Ikenberry, McKeown, C. Sanderson)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "11:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "358",
-            "name": "Black Tide Rising Roundtable: Voices of The Fall",
-            "desc": "<p>\n\tCome join John Ringo and his motley crew of authors for their roundtable on the Black Tide Rising anthology. Will be followed by a mass autograph session. Gary Poole, Mod.<\/p>\n",
-            "date": "2019-06-01",
-            "time": "12:00:00",
-            "length": "90",
-            "loc": "4",
-            "type": "7"
-        },
-        {
-            "id": "359",
-            "name": "Black Tide Rising: Voices of The Fall Mass Autograph Session",
-            "desc": "<p>\n\tBlack Tide Rising Mass Autograph Session immediately following the Roundtable<\/p>\n",
-            "date": "2019-06-01",
-            "time": "14:30:00",
-            "length": "30",
-            "loc": "4",
-            "type": "6"
-        },
-        {
-            "id": "363",
-            "name": "Author's Alley (Baird\/M. Miller, J. & H.P. Holo, S. Hoyt, Maggert, Nye)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-01",
-            "time": "15:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "39",
-            "name": "Closing Ceremonies - Let's Bitch at Brandy",
-            "desc": "<p>\n\tDid you have a great time at the convention? Or was there something that absolutely irritated you? Either way, come out and let us know at our Closing Ceremonies.<\/p>\n",
-            "date": "2019-06-02",
-            "time": "15:00:00",
-            "length": "60",
-            "loc": "4",
-            "type": "4"
-        },
-        {
-            "id": "281",
-            "name": "Author's \/ Artist's Alley (Burkhead, Coe\/Jackson, Gibbons, H.P. & J. Holo, C. Kennedy)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-02",
-            "time": "11:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "283",
-            "name": "Author's Alley (Q. Allen, Beckwith, J. Hunter, Malone)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-02",
-            "time": "13:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "310",
-            "name": "Author's \/ Artist's Alley (Braker, Frost, J.D. Jordan, Montgomery, Sommercorn)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-02",
-            "time": "10:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "362",
-            "name": "Author's Alley (J. Hunter, T. Lowery, G. Mandragora,  J. Osborne, William Webb)",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-02",
-            "time": "14:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        },
-        {
-            "id": "677",
-            "name": "Author's \/ Artist's Alley (Grant, J. Hunter, McKeown, S. Osborn, Weyand",
-            "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
-            "date": "2019-06-02",
-            "time": "12:00:00",
-            "length": "60",
-            "loc": "3",
-            "type": "6"
-        }
-    ]
+  "type": "table",
+  "name": "schedule",
+  "database": "libertycon_org",
+  "data": [
+    {
+      "id": "27",
+      "name": "Opening Ceremonies",
+      "desc": "<p>\n\tTake advantage of the opportunity to meet the LibertyCon Guests and Staff and listen to our Guests of Honor speak!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "17:00:00",
+      "length": "90",
+      "loc": "4",
+      "type": "4"
+    },
+    {
+      "id": "284",
+      "name": "Author's Alley (Ayres, Boop, McKeown, Schroeder, Weyand)",
+      "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "15:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "278",
+      "name": "Author's \/ Artist's Alley (MJ Allen, K&K Evans, Frost, C. Kennedy, Lewis )",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "19:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "279",
+      "name": "Author's \/ Artist's Alley (David Butler, J.D. Jordan, Lewis, Malone, Sommercorn)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "21:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "277",
+      "name": "Author's Alley (Burkhead, K & K Evans, Grant, Lowery, Spriggs)",
+      "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "18:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "276",
+      "name": "Author's Alley (Bragg\/Dan Butler, Gallagher, Jones, Ikenberry, J. Osborne)",
+      "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "16:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "295",
+      "name": "Author's \/ Artist's Alley (M.J. Allen, Q.J. Allen, David Butler, McClure, Lewis )",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "20:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "292",
+      "name": "Author's\/ Artist's Alley (H.P. & Jacob Holo, L. Johnson, Makepeace, Montgomery, Schroeder)",
+      "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "14:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "293",
+      "name": "Author's\/Artist's Alley (Hoch, Makepeace, S. Osborn, Rinehart, Schroeder)",
+      "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "13:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "364",
+      "name": "Author's Alley (David Butler, Gibbons, Mandragora, Meany, William A. Webb)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-05-31",
+      "time": "22:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "350",
+      "name": "Baen Dinner",
+      "desc": "<p>\n\tBaen Dinner - private event<\/p>\n",
+      "date": "2019-06-01",
+      "time": "18:00:00",
+      "length": "180",
+      "loc": "2",
+      "type": "4"
+    },
+    {
+      "id": "34",
+      "name": "Mad Scientist Roundtable",
+      "desc": "<p>\n\tRoundtable discussion of various and timely science topics moderated by Les Johnson. This is a remarkable panel dating back to the earliest LibertyCons. Everyone gets a say but no one gets to say too much.<\/p>\n",
+      "date": "2019-06-01",
+      "time": "23:00:00",
+      "length": "120",
+      "loc": "8",
+      "type": "7"
+    },
+    {
+      "id": "67",
+      "name": "NASA Update",
+      "desc": "<p>\n\tLes Johnson on what has happened in the past year in Space, and what might happen in the coming years.<\/p>\n",
+      "date": "2019-06-01",
+      "time": "10:00:00",
+      "length": "60",
+      "loc": "8",
+      "type": "5"
+    },
+    {
+      "id": "99",
+      "name": "Baen Traveling Roadshow and Prize Patrol",
+      "desc": "<p>\n\tToni Weisskopf will be running the crowd through the best of what&#39;s going on in the Baen universe. (And there will be giveaways!)<\/p>\n",
+      "date": "2019-06-01",
+      "time": "14:00:00",
+      "length": "120",
+      "loc": "4",
+      "type": "5"
+    },
+    {
+      "id": "176",
+      "name": "Reading:  The Writing Hoyts with David Pascoe",
+      "desc": "<p>\n\tSarah, Daniel and Robert Hoyt read from their works, along with David Pascoe.<\/p>\n",
+      "date": "2019-06-01",
+      "time": "01:00:00",
+      "length": "60",
+      "loc": "11",
+      "type": "2"
+    },
+    {
+      "id": "282",
+      "name": "Author's \/ Artist's Alley (Carpenter, Coe\/Jackson, Cordova, Spriggs, James Ward)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "12:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "280",
+      "name": "Author's \/ Artist's Alley (M. Fontaine, T. Hoch, C. Metcalf, C. Sanderson, William Webb)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "10:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "275",
+      "name": "Author's Alley (Carpenter, Coe\/Jackson, Cordova, Spriggs, James Ward)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "13:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "313",
+      "name": "Author's \/ Artist's Alley (Dandridge, Holmes, Humphreys, Sherrer)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "21:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "296",
+      "name": "Author's \/ Artist's Alley (Q. Allen, Dandridge, Holmes, Humphreys)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "22:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "248",
+      "name": "What's New from Steve Jackson Games",
+      "desc": "<p>\n\tSteve Jackson dishes on the latest developments from his secret games laboratory. He will even sign autographs. Come one, come all!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "16:00:00",
+      "length": "60",
+      "loc": "8",
+      "type": "5"
+    },
+    {
+      "id": "285",
+      "name": "Author's Alley (Burkhead, Carpenter, C. Kennedy, S. Hoyt, James Ward)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "14:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "286",
+      "name": "Author's \/ Artist's Alley (Baird\/M. Miller, Gibbons, L. Johnson, Maggert, Mandragora)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "16:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "287",
+      "name": "Author's \/ Artist's Alley (M. J. Allen, Ayres, McClure, S. Osborn, Swann)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "17:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "288",
+      "name": "Author's \/ Artist's Alley (Curtis, Del Arroz, T. Howard\/M, Wyers, Lowery, Weyand)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "18:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "289",
+      "name": "Author's \/ Artist's Alley (Beckwith, Del Arroz, T. Howard\/M. Wyers, Sherrer, Sommercorn )",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "19:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "290",
+      "name": "Author's \/ Artist's Alley (Hollifield, JD Jordan, Malone, Metcalf, Sherrer)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "20:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "291",
+      "name": "Author's \/ Artist's Alley (Frost, Grant, Ikenberry, McKeown, C. Sanderson)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "11:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "358",
+      "name": "Black Tide Rising Roundtable: Voices of The Fall",
+      "desc": "<p>\n\tCome join John Ringo and his motley crew of authors for their roundtable on the Black Tide Rising anthology. Will be followed by a mass autograph session. Gary Poole, Mod.<\/p>\n",
+      "date": "2019-06-01",
+      "time": "12:00:00",
+      "length": "90",
+      "loc": "4",
+      "type": "7"
+    },
+    {
+      "id": "359",
+      "name": "Black Tide Rising: Voices of The Fall Mass Autograph Session",
+      "desc": "<p>\n\tBlack Tide Rising Mass Autograph Session immediately following the Roundtable<\/p>\n",
+      "date": "2019-06-01",
+      "time": "14:30:00",
+      "length": "30",
+      "loc": "4",
+      "type": "6"
+    },
+    {
+      "id": "363",
+      "name": "Author's Alley (Baird\/M. Miller, J. & H.P. Holo, S. Hoyt, Maggert, Nye)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-01",
+      "time": "15:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "39",
+      "name": "Closing Ceremonies - Let's Bitch at Brandy",
+      "desc": "<p>\n\tDid you have a great time at the convention? Or was there something that absolutely irritated you? Either way, come out and let us know at our Closing Ceremonies.<\/p>\n",
+      "date": "2019-06-02",
+      "time": "15:00:00",
+      "length": "60",
+      "loc": "4",
+      "type": "4"
+    },
+    {
+      "id": "281",
+      "name": "Author's \/ Artist's Alley (Burkhead, Coe\/Jackson, Gibbons, H.P. & J. Holo, C. Kennedy)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-02",
+      "time": "11:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "283",
+      "name": "Author's Alley (Q. Allen, Beckwith, J. Hunter, Malone)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-02",
+      "time": "13:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "310",
+      "name": "Author's \/ Artist's Alley (Braker, Frost, J.D. Jordan, Montgomery, Sommercorn)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-02",
+      "time": "10:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "362",
+      "name": "Author's Alley (J. Hunter, T. Lowery, G. Mandragora,  J. Osborne, William Webb)",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-02",
+      "time": "14:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    },
+    {
+      "id": "677",
+      "name": "Author's \/ Artist's Alley (Grant, J. Hunter, McKeown, S. Osborn, Weyand",
+      "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
+      "date": "2019-06-02",
+      "time": "12:00:00",
+      "length": "60",
+      "loc": "3",
+      "type": "6"
+    }
+  ]
 }
