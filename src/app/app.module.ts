@@ -9,7 +9,7 @@ import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
-
+import { Globals } from './factory.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GuestsOfHonorComponent } from './guests-of-honor/guests-of-honor.component';
@@ -22,7 +22,6 @@ import { environment } from '../environments/environment';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EventListComponent } from './event-list/event-list.component';
-import { Globals } from './factory.service';
 
 @NgModule({
   declarations: [

@@ -1,9 +1,9 @@
 <div class='title'> Liberty Con Artists</div>
 <div class='body'>
-  <div *ngFor="let val of artists">
+  <div *ngFor="let val of artists" style="border: 1px solid black;">
     {{val.name}}
-    <br />{{val.date}}
-    <br />{{val.time}}
-    <br />{{val.desc}}
+    <div style="border: 1px solid black;">Date: {{val.date}}</div>
+    <div style="border: 1px solid black;">Time: {{val.time}}</div>
+    <div style="border: 1px solid black;" [innerHTML]="val.desc"></div>
   </div>
 </div>
