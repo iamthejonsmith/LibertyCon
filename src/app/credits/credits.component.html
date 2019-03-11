@@ -1,0 +1,20 @@
+<div class='title'> Liberty Con App Credits</div>
+<div *ngIf="developers" id="developers">
+  <mat-accordion>
+    <mat-expansion-panel class="accordionBtn" *ngFor="let val of developers"
+      style="margin-left: auto; margin-right: auto;">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{val.id}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button type="button" class="btn" style="width: 100%;">
+        <b>Name:</b>&nbsp;{{val.name}}
+        <br />
+        <b>Email:</b>&nbsp;{{val.email}}
+        <br />
+        <div style="border: 1px solid black;" [innerHTML]="val.desc"></div>
+      </button>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
