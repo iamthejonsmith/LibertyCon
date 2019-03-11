@@ -9,6 +9,7 @@ import { ScientificGuestsComponent } from './scientific-guests/scientific-guests
 import { SplashComponent } from './splash/splash.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { EventListComponent } from './event-list/event-list.component';
+import { CreditsComponent } from './credits/credits.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/Splash', pathMatch: 'full' },
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'Artists', component: ArtistGuestsComponent },
   { path: 'Scientists', component: ScientificGuestsComponent },
   { path: 'ContactUs', component: ContactUsComponent },
-  { path: 'EventList', component: EventListComponent }
+  { path: 'EventList', component: EventListComponent },
+  { path: 'Credits', component: CreditsComponent }
 ];
 export const appRouting = RouterModule.forRoot(routes);
 

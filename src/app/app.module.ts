@@ -23,6 +23,7 @@ import { environment } from '../environments/environment';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EventListComponent } from './event-list/event-list.component';
+import { CreditsComponent } from './credits/credits.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { EventListComponent } from './event-list/event-list.component';
     ScientificGuestsComponent,
     SplashComponent,
     ContactUsComponent,
-    EventListComponent
+    EventListComponent,
+    CreditsComponent
   ],
   imports: [
     BrowserModule,
