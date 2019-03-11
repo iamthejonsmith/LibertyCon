@@ -20,12 +20,10 @@ export class AppComponent implements OnInit {
   }
 
   setJsonFiles() {
-    console.log('scheduleJson.data: ', scheduleJson.data);
     const promise = new Promise((resolve, reject) => {
       this.globals.schedule = scheduleJson.data;
       resolve();
     });
-    console.log('globals.schedule: ', this.globals.schedule);
     return promise;
   }
 
