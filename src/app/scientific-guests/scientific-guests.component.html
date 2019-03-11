@@ -1,4 +1,20 @@
 <div class='title'> Liberty Con Scientists</div>
-<div class='body'>
-  <p>This page will have the list of all Scientists Speaking at the Con</p>
+<div *ngIf="scientists" id="scientists">
+  <mat-accordion>
+    <mat-expansion-panel class="accordionBtn" *ngFor="let val of scientists"
+      style="margin-left: auto; margin-right: auto;">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{val.name}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button type="button" class="btn" style="width: 100%;">
+        <b>Date:</b>&nbsp;{{val.date}}
+        <br />
+        <b>Time:</b>&nbsp;{{val.time}}
+        <br />
+        <div style="border: 1px solid black;" [innerHTML]="val.desc"></div>
+      </button>
+    </mat-expansion-panel>
+  </mat-accordion>
 </div>

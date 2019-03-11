@@ -1,11 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {
-  MatIconModule, MatButtonModule, MatSidenavModule, MatToolbarModule
+  MatIconModule, MatButtonModule, MatSidenavModule, MatToolbarModule, MatCardModule, MatExpansionModule
 } from '@angular/material';
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
@@ -41,6 +42,9 @@ import { EventListComponent } from './event-list/event-list.component';
     MatButtonModule,
     MatIconModule,
     MatTabsModule,
+    MatCardModule,
+    MatExpansionModule,
+    NgbModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
