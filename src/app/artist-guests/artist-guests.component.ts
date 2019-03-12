@@ -17,6 +17,11 @@ export class ArtistGuestsComponent implements OnInit {
     }
   }
 
+  favoriteToggle() {
+    console.log('User Toggled Favorite');
+
+  }
+
   ngOnInit() {
     this.setGuests();
   }

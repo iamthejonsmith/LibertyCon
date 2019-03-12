@@ -62,3 +62,11 @@ app-root:empty + .loading h1 {
   border-radius: 3px;
   background-color: gray;
 }
+
+.unfavIcon {
+  color: rgb(57, 11, 224);
+}
+
+.favIcon {
+  color: yellow;
+}
