@@ -12,8 +12,8 @@
 }
 
 .mat-toolbar.mat-primary {
-  background: #463131;
-  color: #efe5d5;
+  background: #454938;
+  color: #aaed6e;
 }
 
 div {
@@ -21,7 +21,7 @@ div {
 }
 
 .mat-sidenav-container{
-  background-color: #efe5d5;
+  background-color: #b0a286;
   min-height: 93vh !important;
 }
 

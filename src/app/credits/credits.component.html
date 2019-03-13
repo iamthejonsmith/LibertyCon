@@ -2,18 +2,18 @@
 <div *ngIf="developers" id="developers">
   <mat-accordion>
     <mat-expansion-panel class="accordionBtn" *ngFor="let val of developers"
-      style="margin-left: auto; margin-right: auto;">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          {{val.id}}
+      style="margin-left: auto; margin-right: auto; background: #5e503d;">
+      <mat-expansion-panel-header style="background: #5e503d;">
+        <mat-panel-title style="color:#aaed6e;">
+          <b>{{val.id}}</b>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <button type="button" class="btn" style="width: 100%;">
-        <b>Name:</b>&nbsp;{{val.name}}
+      <button type="button" class="btn" style="width: 100%; color:#b1f562;">
+        <b>Name:</b>&nbsp;<span style="color: #fffecb">{{val.name}}</span>
         <br />
-        <b>Email:</b>&nbsp;{{val.email}}
+        <b>Email:</b>&nbsp;<span style="color: #fffecb">{{val.email}}</span>
         <br />
-        <div style="border: 1px solid black;" [innerHTML]="val.desc"></div>
+        <div style="border: 1px solid #995b4d;" [innerHTML]="val.desc"></div>
       </button>
     </mat-expansion-panel>
   </mat-accordion>
