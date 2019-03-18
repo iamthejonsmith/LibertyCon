@@ -16,7 +16,9 @@
         <div style="border: 1px solid black;" [innerHTML]="val.desc"></div>
         <div>
           <button type="button" class="btn" style="width: 75%;" (click)="favoriteToggle()">
-            <i class="material-icons unfavIcon">grade</i> Add To My List
+            <i class="material-icons" [ngClass]="val.favorite ? 'favIcon' : 'favIcon2'">grade</i>
+            {{val.favorite}}
+            Add To My List
           </button>
         </div>
       </button>

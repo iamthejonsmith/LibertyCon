@@ -19,7 +19,7 @@ export class ArtistGuestsComponent implements OnInit {
 
   favoriteToggle() {
     console.log('User Toggled Favorite');
-
+    this.globals.favorites.push({ id: '0', name: 'favorite test' });
   }
 
   ngOnInit() {

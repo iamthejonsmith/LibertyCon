@@ -64,9 +64,12 @@ app-root:empty + .loading h1 {
 }
 
 .unfavIcon {
-  color: rgb(57, 11, 224);
+  color: blueviolet;
 }
 
 .favIcon {
   color: yellow;
+}
+.favIcon2 {
+  color: green;
 }
