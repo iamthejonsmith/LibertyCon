@@ -2,18 +2,20 @@
 <div *ngIf="artists" id="artists">
   <mat-accordion>
     <mat-expansion-panel class="accordionBtn" *ngFor="let val of artists"
-      style="margin-left: auto; margin-right: auto;">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          {{val.name}}
+      style="margin-left: auto; margin-right: auto; background: #5e503d;">
+      <mat-expansion-panel-header style="background: #5e503d;">
+        <mat-panel-title style="color:#aaed6e;">
+          <b>{{val.section}}</b>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <button type="button" class="btn" style="width: 100%;">
-        <b>Date:</b>&nbsp;{{val.date}}
+      <button type="button" class="btn" style="width: 100%; color:#b1f562;">
+        <b>Date:</b>&nbsp;<span style="color: #fffecb">{{val.date}}</span>
         <br />
-        <b>Time:</b>&nbsp;{{val.time}}
+        <b>Time:</b>&nbsp;<span style="color: #fffecb">{{val.time}}</span>
         <br />
-        <div style="border: 1px solid black;" [innerHTML]="val.desc"></div>
+        <span *ngIf="val.name !== val.section"><b>Featured Guests:</b>&nbsp;{{val.name}}</span>
+        <br *ngIf="val.name !== val.section" />
+        <div style="border: 1px solid #995b4d;" [innerHTML]="val.desc"></div>
       </button>
     </mat-expansion-panel>
   </mat-accordion>
