@@ -17,9 +17,32 @@ export class ArtistGuestsComponent implements OnInit {
     }
   }
 
-  favoriteToggle() {
-    console.log('User Toggled Favorite');
-    this.globals.favorites.push({ id: '0', name: 'favorite test' });
+  favoriteToggle(fav) {
+    const id: any = fav.id;
+    const data = this.globals.favorites;
+    const data2 = this.globals.schedule;
+    if (data.length > 0) {
+      const favItem = data.find(i => i.id === id);
+      const index = data.findIndex(x => x.prop === fav.id);
+
+      if (favItem.favorite === 'true') {
+        favItem.favorite = 'false';
+        this.globals.favorites[id].splice(index, 1);
+      } else {
+        favItem.favorite = 'true';
+        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+      }
+    } else {
+      const favItem = data2.find(i => i.id === id);
+      const index = data2.findIndex(x => x.prop === fav.id);
+      if (favItem.favorite === 'true') {
+        favItem.favorite = 'false';
+        this.globals.favorites[id].splice(index, 1);
+      } else {
+        favItem.favorite = 'true';
+        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+      }
+    }
   }
 
   ngOnInit() {

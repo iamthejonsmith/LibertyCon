@@ -26,24 +26,8 @@ body{
   min-height: 68px;
   text-align: left;
 }
-.card {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.accordion .card-header:before {
-  font-family: 'FontAwesome';  
-  content: "\f077";
-  float: right; 
-}
-.accordion .card-header.collapsed:before {
-  content: "\f078"; 
-} 
-.accordion-header{
-  background-color: silver;
-  min-height: 68px;
-  word-wrap: break-word;
-  white-space: normal;
+.mat-expansion-indicator::before, .mat-expansion-indicator::after {
+  color: #aaed6e;
 }
 app-root:empty + .loading {
   opacity: 1;

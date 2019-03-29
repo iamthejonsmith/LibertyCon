@@ -1,4 +1,29 @@
-<div class='title'> Liberty Con Event List</div>
-<div class='body'>
-  <p>This will have an editable list of events the user has chosen to attend or marked as interested</p>
+<div class='title'> My Event List</div>
+<div *ngIf="favorites" id="favorites">
+  <mat-accordion>
+    <mat-expansion-panel class="accordionBtn" *ngFor="let fav of favorites"
+      style="margin-left: auto; margin-right: auto; background: #5e503d;">
+      <mat-expansion-panel-header style="background: #5e503d;">
+        <mat-panel-title style="color:#aaed6e;">
+          <b>{{fav.name}}</b>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <button type="button" class="btn" style="width: 100%; color:#b1f562;">
+        <b>Date:</b>&nbsp;<span style="color: #fffecb">{{fav.date}}</span>
+        <br />
+        <b>Time:</b>&nbsp;<span style="color: #fffecb">{{fav.time}}</span>
+        <br />
+        <div>
+          <button type="button" class="btn" style="width: 75%;" (click)="removeFavorite(fav)">
+            <i class="material-icons" [ngClass]="(fav.favorite === 'true') ? 'favIcon' : 'favIcon2'">minus</i>
+            Remove
+          </button>
+        </div>
+      </button>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+<div *ngIf="favorites.length == 0">
+  Please add some Artists, Authors, Scientists, Events, drawings, clip art, something... Man this is a boring page...
+  you should choose stuff to attend... just sayin'
 </div>

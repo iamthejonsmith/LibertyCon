@@ -24,6 +24,12 @@ export class ContactUsComponent implements OnInit {
   // convenience getter for easy access to form fields
   get f() { return this.feedbackForm.controls; }
 
+  clearForm() {
+    this.feedbackForm.reset('');
+    this.feedbackForm.markAsPristine();
+    this.feedbackForm.markAsUntouched();
+  }
+
   onSubmit() {
     this.submitted = true;
 
@@ -33,5 +39,6 @@ export class ContactUsComponent implements OnInit {
     }
 
     alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.feedbackForm.value));
+    this.clearForm();
   }
 }
