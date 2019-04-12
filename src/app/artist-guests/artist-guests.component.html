@@ -5,7 +5,7 @@
       style="margin-left: auto; margin-right: auto; background: #5e503d;">
       <mat-expansion-panel-header style="background: #5e503d;">
         <mat-panel-title style="color:#aaed6e;">
-          <b>{{val.section}}</b>
+          <b>{{val.name}}</b>
         </mat-panel-title>
       </mat-expansion-panel-header>
       <button type="button" class="btn" style="width: 100%; color:#b1f562;">
@@ -13,9 +13,16 @@
         <br />
         <b>Time:</b>&nbsp;<span style="color: #fffecb">{{val.time}}</span>
         <br />
+        <div style="border: 1px solid black;" [innerHTML]="val.desc">{{val.name}}</div>
+        <div>
+          <button type="button" class="btn" style="width: 75%;" (click)="favoriteToggle(val)">
+            <i class="material-icons favIcon">{{icon}}</i>
+            Add To My List
+          </button>
+        </div>
         <span *ngIf="val.name !== val.section"><b>Featured Guests:</b>&nbsp;{{val.name}}</span>
-        <br *ngIf="val.name !== val.section" />
-        <div style="border: 1px solid #995b4d;" [innerHTML]="val.desc"></div>
+        <!-- <br *ngIf="val.name !== val.section" />
+        <div style="border: 1px solid #995b4d;" [innerHTML]="val.desc"></div> -->
       </button>
     </mat-expansion-panel>
   </mat-accordion>
