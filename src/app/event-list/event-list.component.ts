@@ -18,7 +18,6 @@ export class EventListComponent implements OnInit {
   }
 
   removeFavorite(fav) {
-    console.log('removing favorite, ', fav);
     let favItem: any;
     const data = this.globals.favorites;
     const id: any = fav.id;

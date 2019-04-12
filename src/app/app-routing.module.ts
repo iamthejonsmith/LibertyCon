@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'Scientists', component: ScientificGuestsComponent },
   { path: 'ContactUs', component: ContactUsComponent },
   { path: 'EventList', component: EventListComponent },
-  { path: 'Credits', component: CreditsComponent }
+  { path: 'Credits', component: CreditsComponent },
+  { path: 'Schedule', component: EventListComponent }
 ];
 export const appRouting = RouterModule.forRoot(routes);
 
