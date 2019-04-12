@@ -8,7 +8,7 @@ import { Globals } from '../factory.service';
 })
 export class EventListComponent implements OnInit {
   favorites: any[] = new Array();
-
+  public icon = 'star_border';
   constructor(public globals: Globals) { }
 
   setList() {
@@ -18,6 +18,7 @@ export class EventListComponent implements OnInit {
   }
 
   removeFavorite(fav) {
+    console.log('removing favorite, ', fav);
     let favItem: any;
     const data = this.globals.favorites;
     const id: any = fav.id;
@@ -25,6 +26,7 @@ export class EventListComponent implements OnInit {
     favItem = data.find(i => i.id === id);
     favItem.favorite = 'false';
     this.favorites.splice(index, 1);
+    this.icon = 'star_border';
   }
 
   ngOnInit() {

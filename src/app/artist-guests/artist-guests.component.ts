@@ -6,9 +6,10 @@ import { Globals } from '../factory.service';
   templateUrl: './artist-guests.component.html',
   styleUrls: ['./artist-guests.component.css']
 })
+
 export class ArtistGuestsComponent implements OnInit {
   artists: any[] = new Array();
-
+  public icon = 'star_border';
   constructor(public globals: Globals) { }
 
   setGuests() {
@@ -22,26 +23,34 @@ export class ArtistGuestsComponent implements OnInit {
     const data = this.globals.favorites;
     const data2 = this.globals.schedule;
     if (data.length > 0) {
-      const favItem = data.find(i => i.id === id);
-      const index = data.findIndex(x => x.prop === fav.id);
-
-      if (favItem.favorite === 'true') {
+      let favItem = data.find(i => i.id === id);
+      if (favItem !== undefined) {
+        const idx = data2.findIndex(x => x.id === fav.id);
+        favItem = data2.find(i => i.id === id);
         favItem.favorite = 'false';
-        this.globals.favorites[id].splice(index, 1);
+        data.splice(idx, 1);
+        this.icon = 'star_border';
       } else {
+        favItem = data2.find(i => i.id === id);
         favItem.favorite = 'true';
         this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+        this.icon = 'star';
       }
+      favItem = '';
     } else {
-      const favItem = data2.find(i => i.id === id);
-      const index = data2.findIndex(x => x.prop === fav.id);
+      let favItem = data2.find(i => i.id === id);
+      let index = data2.findIndex(x => x.prop === id);
       if (favItem.favorite === 'true') {
         favItem.favorite = 'false';
-        this.globals.favorites[id].splice(index, 1);
+        this.globals.favorites[0].splice(index, 1);
+        this.icon = 'star_border';
       } else {
         favItem.favorite = 'true';
         this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+        this.icon = 'star';
       }
+      favItem = '';
+      index = null;
     }
   }
 
