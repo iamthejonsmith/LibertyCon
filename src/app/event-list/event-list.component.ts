@@ -15,18 +15,21 @@ export class EventListComponent implements OnInit {
     for (let a = 0; a < (this.globals.favorites).length; a++) {
       this.favorites.push(this.globals.favorites[a]);
     }
+    console.log('favorites: ', this.favorites);
   }
 
-  removeFavorite(fav) {
-    console.log('removing favorite, ', fav);
+  removeFavorite(index) {
     let favItem: any;
     const data = this.globals.favorites;
-    const id: any = fav.id;
-    const index = data.findIndex(x => x.prop === fav.id);
-    favItem = data.find(i => i.id === id);
+    const data2 = this.globals.schedule;
+    const id: any = this.favorites[index].id;
+    const idx = data.findIndex(x => x.id === id);
+    favItem = data2.find(i => i.id === id);
     favItem.favorite = 'false';
+    data.splice(idx, 1);
     this.favorites.splice(index, 1);
-    this.icon = 'star_border';
+    console.log('favorites after remove: ', this.favorites);
+    console.log('globals.favorites after remove: ', this.globals.favorites);
   }
 
   ngOnInit() {

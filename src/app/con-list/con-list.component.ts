@@ -2,15 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { Globals } from '../factory.service';
 
 @Component({
-  selector: 'app-artist-guests',
-  templateUrl: './artist-guests.component.html',
-  styleUrls: ['./artist-guests.component.css']
+  selector: 'app-con-list',
+  templateUrl: './con-list.component.html',
+  styleUrls: ['./con-list.component.css']
 })
-
-export class ArtistGuestsComponent implements OnInit {
+export class ConListComponent implements OnInit {
   artists: any[] = new Array();
-  public starBorder = 'star_border';
-  public starFilled = 'star';
+  public icon = 'star_border';
   constructor(public globals: Globals) { }
 
   setGuests() {
@@ -26,25 +24,29 @@ export class ArtistGuestsComponent implements OnInit {
     if (data.length > 0) {
       let favItem = data.find(i => i.id === id);
       if (favItem !== undefined) {
-        const idx = data.findIndex(x => x.id === fav.id);
+        const idx = data2.findIndex(x => x.id === fav.id);
         favItem = data2.find(i => i.id === id);
         favItem.favorite = 'false';
         data.splice(idx, 1);
+        this.icon = 'star_border';
       } else {
         favItem = data2.find(i => i.id === id);
         favItem.favorite = 'true';
         this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+        this.icon = 'star';
       }
       favItem = '';
     } else {
       let favItem = data2.find(i => i.id === id);
-      let index = data2.findIndex(x => x.id === id);
+      let index = data2.findIndex(x => x.prop === id);
       if (favItem.favorite === 'true') {
         favItem.favorite = 'false';
-        this.globals.favorites.splice(index, 1);
+        this.globals.favorites[0].splice(index, 1);
+        this.icon = 'star_border';
       } else {
         favItem.favorite = 'true';
         this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+        this.icon = 'star';
       }
       favItem = '';
       index = null;
@@ -56,3 +58,4 @@ export class ArtistGuestsComponent implements OnInit {
   }
 
 }
+
