@@ -9,7 +9,8 @@ import { Globals } from '../factory.service';
 
 export class ArtistGuestsComponent implements OnInit {
   artists: any[] = new Array();
-  public icon = 'star_border';
+  public starBorder = 'star_border';
+  public starFilled = 'star';
   constructor(public globals: Globals) { }
 
   setGuests() {
@@ -25,29 +26,25 @@ export class ArtistGuestsComponent implements OnInit {
     if (data.length > 0) {
       let favItem = data.find(i => i.id === id);
       if (favItem !== undefined) {
-        const idx = data2.findIndex(x => x.id === fav.id);
+        const idx = data.findIndex(x => x.id === fav.id);
         favItem = data2.find(i => i.id === id);
         favItem.favorite = 'false';
         data.splice(idx, 1);
-        this.icon = 'star_border';
       } else {
         favItem = data2.find(i => i.id === id);
         favItem.favorite = 'true';
         this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
-        this.icon = 'star';
       }
       favItem = '';
     } else {
       let favItem = data2.find(i => i.id === id);
-      let index = data2.findIndex(x => x.prop === id);
+      let index = data2.findIndex(x => x.id === id);
       if (favItem.favorite === 'true') {
         favItem.favorite = 'false';
-        this.globals.favorites[0].splice(index, 1);
-        this.icon = 'star_border';
+        this.globals.favorites.splice(index, 1);
       } else {
         favItem.favorite = 'true';
         this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
-        this.icon = 'star';
       }
       favItem = '';
       index = null;
