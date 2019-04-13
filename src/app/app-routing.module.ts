@@ -10,6 +10,7 @@ import { SplashComponent } from './splash/splash.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { EventListComponent } from './event-list/event-list.component';
 import { CreditsComponent } from './credits/credits.component';
+import { ConListComponent } from './con-list/con-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/Splash', pathMatch: 'full' },
@@ -21,7 +22,7 @@ const routes: Routes = [
   { path: 'ContactUs', component: ContactUsComponent },
   { path: 'EventList', component: EventListComponent },
   { path: 'Credits', component: CreditsComponent },
-  { path: 'Schedule', component: EventListComponent }
+  { path: 'Schedule', component: ConListComponent }
 ];
 export const appRouting = RouterModule.forRoot(routes);
 
