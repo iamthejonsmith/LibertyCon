@@ -24,6 +24,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EventListComponent } from './event-list/event-list.component';
 import { CreditsComponent } from './credits/credits.component';
+import { ConListComponent } from './con-list/con-list.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CreditsComponent } from './credits/credits.component';
     SplashComponent,
     ContactUsComponent,
     EventListComponent,
-    CreditsComponent
+    CreditsComponent,
+    ConListComponent
   ],
   imports: [
     BrowserModule,
