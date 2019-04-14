@@ -11,6 +11,7 @@ export class ArtistGuestsComponent implements OnInit {
   artists: any[] = new Array();
   public starBorder = 'star_border';
   public starFilled = 'star';
+
   constructor(public globals: Globals) { }
 
   setGuests() {
