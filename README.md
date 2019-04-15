@@ -39,7 +39,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## How to build Android Project:
 
 run: `cordova create <App Name> cnci.example.<appname> <App Name>`
-run:  `ng build --prod --base-href . --output-path ../Cordova_Projects/libCon/www` from your ANGULAR project root directory
+run:  `ng build --prod --base-href . --output-path ../Cordova_Projects/libcon3/www` from your ANGULAR project root directory
 ## CD into the cordova directory root folder
 run: `cordova platform add android`
 run: `cordova platform add browser`
@@ -47,14 +47,15 @@ run: `cordova platform add ios`
 run: `npm install` (installs all dependent node modules based on package.json);
 run: `cordova build <platform>` (currently only browser & android)
 run: `cordova run browser` to test
-open: AndroidManifest.xml and remove `android:debguggable="true"` from the following line:
-    `<application android:debuggable="true"`
+MAKE SURE TO UPDATE THE package.json and config.xml (cordova project) with the correct build/version numbers
 run: `cordova build --release android`
 this generates an unsigned apk in: `platforms/android/ant-build`, navigate there
 
 # Key Generation
 ## command syntax:
 `keytool -genkey -v -keystore <keystoreName>.keystore -alias <Keystore AliasName> -keyalg <Key algorithm> -keysize <Key size> -validity <Key Validity in Days>`
+
+GENERATE YOUR KEYSTORE IN A SECURE FOLDER TO REUSE WITH EVERY UPLOAD!!!!!!!! You will only generate it once and then copy it into the build folder when needed for app signing
 
 run: `keytool -genkey -v -keystore cnci_libertycon.keystore -alias libertyCon -keyalg RSA -keysize 2048 -validity 10000`
 
@@ -66,7 +67,8 @@ run: `keytool -genkey -v -keystore cnci_libertycon.keystore -alias libertyCon -k
 # What is the name of your State or Province? :  AL
 # What is the two-letter country code for this unit? :  US
 
-This will generate the keystore. Place the generated keystore file(s) in the following directory:
+This will generate the keystore in your chosen folder. 
+COPY the generated keystore file(s) in the following directory:
 `platforms\android\build\outputs\apk`
 # jarsigner syntax:
 `jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore <keystorename> <Unsigned APK file> <Keystore Alias name>`

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Globals } from '../factory.service';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-credits',
@@ -9,6 +10,8 @@ import { Globals } from '../factory.service';
 export class CreditsComponent implements OnInit {
   developer: any[] = new Array();
   developers: any[] = new Array();
+
+  public version: string = environment.VERSION;
 
   constructor(public globals: Globals) {
     this.developer = [
