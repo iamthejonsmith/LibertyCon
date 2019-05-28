@@ -10,7 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
-import { Globals } from './factory.service';
+import { Globals, FactoryService } from './factory.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GuestsOfHonorComponent } from './guests-of-honor/guests-of-honor.component';
@@ -58,7 +58,7 @@ import { ConListComponent } from './con-list/con-list.component';
     ReactiveFormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [Globals],
+  providers: [Globals, FactoryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

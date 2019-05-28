@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Globals } from './factory.service';
+import { HttpClient } from '@angular/common/http';
 import * as scheduleJson from '../assets/data/schedule.json';
 
 @Component({
@@ -16,7 +17,7 @@ export class AppComponent implements OnInit {
   activeLinkIndex = -1;
   data: any;
 
-  constructor(private router: Router, public globals: Globals) {
+  constructor(private router: Router, public globals: Globals, private httpClient: HttpClient) {
   }
 
   setJsonFiles() {
@@ -29,6 +30,15 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.setJsonFiles();
+  }
+
+  getData() {
+    this.httpClient.get('/api/schedule')
+      .subscribe(
+        (data: any[]) => {
+          console.log(data);
+        }
+      );
   }
 
 }
