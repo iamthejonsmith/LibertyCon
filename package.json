@@ -1,6 +1,6 @@
 {
   "name": "liberty-con3",
-  "version": "1.1.0",
+  "version": "1.10.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
