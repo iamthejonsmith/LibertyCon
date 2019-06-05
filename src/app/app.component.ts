@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Globals } from './factory.service';
 import { HttpClient } from '@angular/common/http';
+import { saveAs } from 'file-saver';
 import * as scheduleJson from '../assets/data/schedule.json';
 
 @Component({
@@ -30,10 +31,17 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.setJsonFiles();
+    this.getData();
   }
 
   getData() {
-    this.httpClient.get('/api/schedule')
+    /* const url = 'https://libertycon.org/api/guest/read.php';
+    this.httpClient.get(url, { responseType: 'blob' })
+      .subscribe((res) => {
+        console.log(res);
+        saveAs(res, 'src/assets/data/schedule1.json');
+      } */
+    this.httpClient.get('https://libertycon.org/api/guest/read.php')
       .subscribe(
         (data: any[]) => {
           console.log(data);

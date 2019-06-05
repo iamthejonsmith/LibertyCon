@@ -25,7 +25,7 @@ export class CreditsComponent implements OnInit {
         email: 'tbd'
       }, {
         id: 'Developer 1',
-        name: 'Jonathan Smith',
+        name: 'Deacon Wolfwood',
         email: 'tbd'
       }, {
         id: 'Graphics Designer',
