@@ -14,6 +14,9 @@
         <br />
         <b>Time:</b>&nbsp;<span style="color: #fffecb">{{val.time}}</span>
         <br />
+        <br />
+        <b>Location:</b>&nbsp;<span style="color: #fffecb">{{val.loc}}</span>
+        <br />
         <div style="border: 1px solid black;" [innerHTML]="val.desc">{{val.name}}</div>
         <div>
           <button type="button" class="btn" style="width: 75%;" (click)="favoriteToggle(val)">
@@ -23,7 +26,7 @@
             Add To My List
           </button>
         </div>
-        <span *ngIf="val.name !== val.section"><b>Featured Guests:</b>&nbsp;{{val.name}}</span>
+        <span *ngIf="val.name !== val.section"><b>Featured Guests:</b>&nbsp;{{val.guestName}}</span>
         <!-- <span *ngIf="val.name !== val.section"><b>Featured Guests:</b>&nbsp;{{val.name}}</span>
         <br *ngIf="val.name !== val.section" />
         <div style="border: 1px solid #995b4d;" [innerHTML]="val.desc"></div> -->

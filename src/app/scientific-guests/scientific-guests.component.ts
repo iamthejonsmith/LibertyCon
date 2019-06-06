@@ -15,7 +15,9 @@ export class ScientificGuestsComponent implements OnInit {
 
   setGuests() {
     for (let a = 0; a < (this.globals.schedule).length; a++) {
-      this.scientists.push(this.globals.schedule[a]);
+      if (this.globals.schedule[a].type === 'Scientist') {
+        this.scientists.push(this.globals.schedule[a]);
+      }
     }
   }
 

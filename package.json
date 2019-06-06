@@ -25,6 +25,7 @@
     "@angular/router": "~7.2.5",
     "@angular/service-worker": "~7.2.5",
     "@ng-bootstrap/ng-bootstrap": "^4.1.0",
+    "@types/file-saver": "^2.0.1",
     "ajv": "^6.9.2",
     "angular-font-awesome": "^3.1.2",
     "angular-fontawesome": "^1.0.0",
