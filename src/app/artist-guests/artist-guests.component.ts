@@ -14,7 +14,7 @@ export class ArtistGuestsComponent implements OnInit {
 
   constructor(public globals: Globals) { }
 
-  setGuests() {
+  setArtists() {
     console.log('Adding Artists');
     for (let a = 0; a < (this.globals.schedule).length; a++) {
       if (this.globals.schedule[a].type === 'Artist') {
@@ -57,7 +57,7 @@ export class ArtistGuestsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.setGuests();
+    this.setArtists();
   }
 
 }

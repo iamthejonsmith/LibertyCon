@@ -4,6 +4,7 @@
     "database": "libertycon_org",
     "data": [
         {
+            "id": 0,
             "name": "Reading: The Writing Hoyts & David Pascoe",
             "desc": "<p>\n\tCome out and have a seat as our authors read passages from their works.<\/p>\n",
             "date": "2019-06-28",
@@ -11,9 +12,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 1,
             "name": "Opening Ceremonies",
             "desc": "<p>\n\tTake advantage of the opportunity to meet the LibertyCon Guests and Staff and listen to our Guests of Honor speak!<\/p>\n",
             "date": "2019-06-28",
@@ -21,9 +24,11 @@
             "length": "90",
             "loc": "CC: Ballroom F",
             "type": "Professional Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 2,
             "name": "Artist Meet & Greet",
             "desc": "<p>\n\tDid something catch your eye in the Art Show? This is a chance to meet the Artist and let them tell you about it. Don&#39;t forget to bid!<\/p>\n",
             "date": "2019-06-28",
@@ -31,9 +36,11 @@
             "length": "60",
             "loc": "Art Show (CC: Meeting Room 4)",
             "type": "Professional Panelist",
-            "guestName": "Michael Z. Williamson"
+            "guestName": "Michael Z. Williamson",
+            "favorite": false
         },
         {
+            "id": 3,
             "name": "Spades Tournament (First Round)",
             "desc": "<p>\n\tEvery year THERE CAN BE ONLY ONE to win bragging rights for a year. Will you be the one? Sign-up sheets will be at the registration desk.<\/p>\n",
             "date": "2019-06-28",
@@ -41,9 +48,11 @@
             "length": "90",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Author \/ Performer",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 4,
             "name": "Reading:  Benjamin Wheeler & Anna Grace Carpenter",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages of their works<\/p>\n",
             "date": "2019-06-28",
@@ -51,9 +60,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 5,
             "name": "CyberSecurity for Writers and Scientists",
             "desc": "<p>\n\tRich Weyand moderates this panel on cybersecurity for Writers and Scientists and other professionals including new threats&nbsp; and new countermeasures.<\/p>\n",
             "date": "2019-06-28",
@@ -61,9 +72,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Author",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 6,
             "name": "Concert:  Gray Rinehart",
             "desc": "<p>\n\tCome join FilkMaster Gray Rinehart as he performs songs off his albums, with a few additional numbers (either original or covers)! Come on, come all!<\/p>\n",
             "date": "2019-06-28",
@@ -71,9 +84,11 @@
             "length": "60",
             "loc": "CC: Ballroom F",
             "type": "Professional Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 7,
             "name": "Chain Mail Workshop",
             "desc": "<p>\n\tBryan Jones will conduct a workshop on the ancient skill of creating chain mail. He will provide rings and fittings gratis for each attendee to make a chain mail bracelet.<\/p>\n",
             "date": "2019-06-28",
@@ -81,9 +96,11 @@
             "length": "120",
             "loc": "M: Tennessee River Room",
             "type": "Performer",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 8,
             "name": "Crossing Steampunk II",
             "desc": "<p>\n\tD. Allen Lewis moderates this panel on writing and mixing genres that cross Steampunk.<\/p>\n",
             "date": "2019-06-28",
@@ -91,9 +108,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 9,
             "name": "Technological Future of War",
             "desc": "<p>\n\tMichael Z. Williamson moderates this perennial panel on how today&#39;s advances will affect the future of warfare.<\/p>\n",
             "date": "2019-06-28",
@@ -101,9 +120,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 10,
             "name": " The Double-Dynamo Solar Model: The Latest from Dr. Zharkova",
             "desc": "<p>\n\tScientist Stephanie Osborn discusses the double-dynamo solar model, and Dr. Zharkova&#39;s predictions for an extended solar minimum.<\/p>\n",
             "date": "2019-06-28",
@@ -111,9 +132,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 11,
             "name": "Reading: J.D. Beckwith & Hans Schantz",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages of their works<\/p>\n",
             "date": "2019-06-28",
@@ -121,9 +144,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Artist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 12,
             "name": "Reading:  Declan Finn & Melisa Todd",
             "desc": "<p>\n\tCome out and have a seat as our author guest reads passages of her works.<\/p>\n",
             "date": "2019-06-28",
@@ -131,9 +156,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Artist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 13,
             "name": "Art Demo: Creations from The World of Enoch",
             "desc": "<p>\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">Meet artist Grant Cooley as he creates works for &quot;The World of Enoch.&quot;<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -141,9 +168,11 @@
             "length": "120",
             "loc": "CC: Meeting Room 7",
             "type": "Scientist \/ Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 14,
             "name": "Dungeons & Dragons. Edition 3.5",
             "desc": "<p>\n\tTaylor Hoch will run an Edition 3.5 campaign designed for all comers.<\/p>\n",
             "date": "2019-06-28",
@@ -151,9 +180,11 @@
             "length": "180",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 15,
             "name": "Author's \/ Artist's Alley (Makepeace, McKeown, Schroeder, Weyand)",
             "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-28",
@@ -161,9 +192,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 16,
             "name": "Author's \/ Artist's Alley (MJ Allen, Cooley, K&K Evans, C. Kennedy, Lewis )",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-28",
@@ -171,9 +204,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 17,
             "name": "Author's \/ Artist's Alley (David Butler, Frost, J.D. Jordan, Lewis, Malone)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-28",
@@ -181,9 +216,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 18,
             "name": "Author's Alley (Burkhead, K & K Evans, J. & HP Holo, Lowery, Schantz)",
             "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-28",
@@ -191,9 +228,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 19,
             "name": "Reading: Teresa Howard & Rob Howell",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages of their works.<\/p>\n",
             "date": "2019-06-28",
@@ -201,9 +240,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 20,
             "name": "Reading:  Taylor Hoch & Martin Shoemaker",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages of their works<\/p>\n",
             "date": "2019-06-28",
@@ -211,9 +252,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 21,
             "name": "What's New in Weird Wild West",
             "desc": "<p>\n\tDavid Boop moderates this panel on what&#39;s new in the genre of Weird Wild West.<\/p>\n",
             "date": "2019-06-28",
@@ -221,9 +264,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Author",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 22,
             "name": "Reading:  Robert Hampson & Chris Woods",
             "desc": "<p>\n\t<span style=\"font-weight: 700;\">Come and hear Dr.&nbsp;<\/span><strong>Robert Hampson<\/strong>&nbsp;<span style=\"font-weight: 700;\">&nbsp;read passages from his works!<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -231,9 +276,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 23,
             "name": "Tennessee Valley Interstellar Workshop (TVIW)",
             "desc": "<p>\n\tLes Johnson moderates this panel about TVIW. The&nbsp;<span style=\"font-family: Calibri, sans-serif; font-size: 11pt; white-space: pre-wrap;\">latest TVIW Symposiums will be discussed along with the upcoming Wichita event.<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -241,9 +288,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Author",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 24,
             "name": "Reading:  Julie Frost & Jeff Duntemann",
             "desc": "<p>\n\tCome and hear as our authors read from their selected works.<\/p>\n",
             "date": "2019-06-28",
@@ -251,9 +300,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 25,
             "name": "Reading:  Arlan Andrews & Les Johnson",
             "desc": "<p>\n\tCome and hear Dr. Arlan Andrews and Les Johnson read passages from their works!<\/p>\n",
             "date": "2019-06-28",
@@ -261,9 +312,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 26,
             "name": "Reading:  Jason Cordova and Chris Smith",
             "desc": "<p>\n\tCome out and have a seat as our author guests reads passages of their works<\/p>\n",
             "date": "2019-06-28",
@@ -271,9 +324,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 27,
             "name": "The Bridges between Fantasy and Historical Fiction",
             "desc": "<p>\n\tDr. Valerie Hampton moderates a discussion on how good historical research informs the essential elements of creating visual and written fantasy and good historical fiction.<\/p>\n",
             "date": "2019-06-28",
@@ -281,9 +336,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 28,
             "name": "Steve Jackson Games - Open Gaming",
             "desc": "<p>\n\tSteve Jackson Games will demo new and familiar games - come one, come all!<\/p>\n",
             "date": "2019-06-28",
@@ -291,9 +348,11 @@
             "length": "60",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 29,
             "name": "Reading: Jon Del Arroz & Paula Jordan",
             "desc": "<p>\n\tCome hear our Authors read from their works.<\/p>\n",
             "date": "2019-06-28",
@@ -301,9 +360,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 30,
             "name": "Balloons of Doom",
             "desc": "<p>\n\tDoc Osborn unleashes controlled chaos with his balloons of doom!<\/p>\n",
             "date": "2019-06-28",
@@ -311,9 +372,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Scientist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 31,
             "name": "Author's Alley (Bragg\/Dan Butler, Gallagher, Ikenberry, L. Johnson, J. Osborne)",
             "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-28",
@@ -321,9 +384,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 32,
             "name": "Author's \/ Artist's Alley (Q.J. Allen, David Butler, McClure, Lewis )",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-28",
@@ -331,9 +396,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 32,
             "name": "Author's\/ Artist's Alley (Braker, Freeman, Makepeace, Rodgers, Schroeder)",
             "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-28",
@@ -341,9 +408,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 33,
             "name": "Author's\/Artist's Alley (Boop, S. Osborn, Rinehart, Rodgers, Schroeder)",
             "desc": "<p>\n\tCome by the Author&#39;s\/Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-28",
@@ -351,9 +420,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 34,
             "name": "Author's Alley (David Butler, Gibbons, Meany, William A. Webb)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-28",
@@ -361,9 +432,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 35,
             "name": "Ask A Scientist - Kids Edition",
             "desc": "<p>\n\tDr. Robert E. Hampson moderates this Q&amp;A for kids across a broad array of sciences.<\/p>\n",
             "date": "2019-06-28",
@@ -371,9 +444,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Scientist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 36,
             "name": "Learn Glass Cutting from a Master",
             "desc": "<p class=\"m_-7396509082856207342ydpde9d6f51yiv0416331821m_-9182047954994711262yiv0345021528m_-2424042314682905727yiv1499307911m_-79406756962841898ydpaf0ffe3fyiv0205266586ydp8775ce0bMsoNormal\" courier=\"\" font-size:=\"\" style=\"font-family: \">\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: rgba(255, 255, 255, 0);\"><b>Master Stained Glass Artisan Leia Powell has been creating glass masterpieces for over twenty years.&nbsp;&nbsp;In this 60 minute demonstration, you will learn about how to cut and break glass to fit a pattern.&nbsp; &nbsp;The fee for this workshop is $10 per person which enters you into a drawing to take home Leia&rsquo;s creation after the demo!&nbsp;<\/b><\/span><b style=\"font-family: Arial, Helvetica, sans-serif; font-size: small; background-color: rgba(255, 255, 255, 0);\">Send your prepayment (this will count as your registration) via PayPal to&nbsp;<a href=\"mailto:fearandtrust@yahoo.com\" style=\"color: rgb(17, 85, 204);\" target=\"_blank\">fearandtrust@yahoo.com<\/a>&nbsp;<\/b><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">OR pay $10 at the door.<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -381,9 +456,11 @@
             "length": "60",
             "loc": "M: Tennessee River Room",
             "type": "Scientist \/ Author",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 37,
             "name": "Supplying War \/ Supplying Your Fictional War",
             "desc": "<p>\n\tTom Kratman presents Supplying War \/ Supplying Your Fictional War - What it takes and how to get it right when explaining it from the writers perspective. Tom will have an autograph session during the last 15 minutes.<\/p>\n",
             "date": "2019-06-28",
@@ -391,9 +468,11 @@
             "length": "120",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 38,
             "name": "No S**T There I Was Just Minding My Own Business ....",
             "desc": "<p>\n\tMike Massa moderates this &quot;war story&quot; discussion with writers who are veterans and law enforcement professionals.<\/p>\n",
             "date": "2019-06-28",
@@ -401,9 +480,11 @@
             "length": "120",
             "loc": "CC: Ballroom F",
             "type": "Author",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 39,
             "name": "Reading:  Lydia Sherrer & William Alan Webb",
             "desc": "<p>\n\tCome listen as our authors read from their works.<\/p>\n",
             "date": "2019-06-28",
@@ -411,9 +492,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Artist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 40,
             "name": "Creating Compelling Cover Copy",
             "desc": "<p>\n\tDave Schroeder will run a workshop on creating compelling cover copy for your novel&nbsp;<\/p>\n",
             "date": "2019-06-28",
@@ -421,9 +504,11 @@
             "length": "60",
             "loc": "M: Tennessee River Room",
             "type": "Performer",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 41,
             "name": " Luck is Not a Factor: More Stories from the Four Horsemen Universe",
             "desc": "<p>\n\tChris Kennedy moderates&nbsp;Luck is Not a Factor: More Stories from the Four Horsemen Universe. The 4 Horseman Roundtable: Readings, Q&amp;A, Discussion, followed by a&nbsp; Mass Autograph Session<\/p>\n",
             "date": "2019-06-28",
@@ -431,9 +516,11 @@
             "length": "90",
             "loc": "CC: Ballroom F",
             "type": "Publisher",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 42,
             "name": "The 4 Horseman RT Mass Autograph Session",
             "desc": "<p>\n\tChris Kennedy moderates The 4 Horseman Roundtable Mass Autograph Session<\/p>\n",
             "date": "2019-06-28",
@@ -441,9 +528,11 @@
             "length": "30",
             "loc": "CC: Ballroom F",
             "type": "Editor",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 43,
             "name": "Tropes of Modern Urban Fantasy ",
             "desc": "<p>\n\tWhat are the most common and most unique tropes found in Urban Fantasy today. David B. Coe moderates this fascinating discussion.<\/p>\n",
             "date": "2019-06-28",
@@ -451,9 +540,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 44,
             "name": "Codenames",
             "desc": "<p>\n\tPaul Bielaczyc hosts CODENAMES for 10 - 20 folks.&nbsp;&nbsp;<span amazon=\"\" font-size:=\"\" style=\"color: rgb(17, 17, 17); font-family: \">Codenames is a social word game with a simple premise and challenging game play. Two rival spymasters know the secret identities of 25 agents. Their teammates know the agents only by their codenames. The teams compete to see who can make contact with all of their agents first. Spymasters give one-word clues that can point to multiple words on the table. Their teammates try to guess words of their color while avoiding those that belong to the opposing team. And everyone wants to avoid the assassin. The game works very well with 4 players if you prefer to guess without help. Or you can add more players if you prefer lively discussion. There is also a cooperative variant where a single team tries to achieve the highest score they can by playing against the game itself.<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -461,9 +552,11 @@
             "length": "120",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 45,
             "name": "Completely Random Cocktail Hour",
             "desc": "<p>\n\t<span style=\"font-family: Helvetica, Arial, sans-serif;\">Nathan Balyeat hosts the&nbsp;<\/span>Completely Random Cocktail Hour room Party.&nbsp; Come and party!<\/p>\n",
             "date": "2019-06-28",
@@ -471,9 +564,11 @@
             "length": "160",
             "loc": "Party Alley (M: 3rd Floor)",
             "type": "Artist \/ Author",
-            "guestName": "Leo Champion"
+            "guestName": "Leo Champion",
+            "favorite": false
         },
         {
+            "id": 46,
             "name": "Creating Independent Comics ",
             "desc": "<p>\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">Mitch Foust moderates this panel on creating independent comics and how the&nbsp;<\/span>worlds of pulps, comics and graphic novels capture the imagination in popular culture.&nbsp;<\/p>\n",
             "date": "2019-06-28",
@@ -481,9 +576,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 47,
             "name": "Autograph Session (Andrews, Cooley, Rinehart, Sanderson)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-28",
@@ -491,9 +588,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 48,
             "name": "Autograph Session (Antonelli, K. Bogen, HP & J Holo, Howell)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-28",
@@ -501,9 +600,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 49,
             "name": "Autograph Session (T. Howard, Swann)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-28",
@@ -511,9 +612,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 50,
             "name": "Autograph Session (Carpenter, Cordova, Ringo, Shoemaker)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-28",
@@ -521,9 +624,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 51,
             "name": "Open Filking",
             "desc": "<p>\n\tNerd music free for all with Gray Rinehart<\/p>\n",
             "date": "2019-06-28",
@@ -531,9 +636,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Professional Panelist",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 52,
             "name": "Terra Nova: What's New from the Carreraverse",
             "desc": "<p>\n\tTom Kratman moderates this roundtable with readings from Terra Nova and the Carreraverse anthology, followed by a Mass Autograph session.<\/p>\n",
             "date": "2019-06-28",
@@ -541,9 +648,11 @@
             "length": "90",
             "loc": "CC: Ballroom F",
             "type": "Publisher",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 53,
             "name": "Deepest Darkest Dystopias ",
             "desc": "<p>\n\tWhat themes run through Dystopian fiction and why they strike such a cord with readers. Marina Fontaine moderates.<\/p>\n",
             "date": "2019-06-28",
@@ -551,9 +660,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 54,
             "name": "Noir Fatale Roundtable ",
             "desc": "<p>\n\tKC Ezell moderates this roundtable discussion with readings, followed by a mass autograph session.<\/p>\n",
             "date": "2019-06-28",
@@ -561,9 +672,11 @@
             "length": "90",
             "loc": "CC: Ballroom F",
             "type": "Publisher",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 55,
             "name": "Make It, Take It \/ Sit 'n' Stitch",
             "desc": "<p>\n\tThe return of a perennial favorite! Susan Brady will host a three hour session on costuming basics, with folks building their own costumes and taking their creations with them to wear at the convention. And concurrent with this event, we will also have Sit &#39;n&#39; Stitch for the knitters and crocheters!&nbsp;<\/p>\n",
             "date": "2019-06-28",
@@ -571,9 +684,11 @@
             "length": "180",
             "loc": "CC: Meeting Room 8",
             "type": "Performer",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 56,
             "name": "Terra Nova Mass Autograph Session",
             "desc": "<p>\n\tTom Kratman oversees the Terra Nova Mass Autograph Session after the Roundtable<\/p>\n",
             "date": "2019-06-28",
@@ -581,9 +696,11 @@
             "length": "30",
             "loc": "CC: Ballroom F",
             "type": "Editor",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 57,
             "name": "Noir Fatale Mass Autograph Session",
             "desc": "<p>\n\tMass Autograph session following the Noir Fatale Roundtable<\/p>\n",
             "date": "2019-06-28",
@@ -591,9 +708,11 @@
             "length": "30",
             "loc": "CC: Ballroom F",
             "type": "Editor",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 58,
             "name": "Meet the Artist Guest of Honor: Mitch Foust",
             "desc": "<p>\n\t<span style=\"font-family: Calibri, sans-serif; font-size: 14.6667px;\">Futurist, magazine writer and host of the award-winning podcast &ldquo;The Future And You&rdquo;, Stephen Euin Cobb will do a recorded interview with Artist GOH Mitch Foust.&nbsp;<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -601,9 +720,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Professional Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 59,
             "name": "A Tribute to  Special Guest of Honor: Tim Bolgeo",
             "desc": "<p>\n\t<span style=\"font-family: Calibri, sans-serif; font-size: 14.6667px;\">A tribute to the memory of Special GOH Tim Bolgeo.&nbsp;<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -611,9 +732,11 @@
             "length": "60",
             "loc": "CC: Ballroom F",
             "type": "Professional Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 60,
             "name": "Meet the Literary Guest of Honor: Sarah Hoyt",
             "desc": "<p>\n\t<span style=\"font-family: Calibri, sans-serif; font-size: 14.6667px;\">Futurist, magazine writer and host of the award-winning podcast &ldquo;The Future And You&rdquo;, Stephen Euin Cobb will do a recorded interview with Artist GOH Mitch Foust.&nbsp;<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -621,9 +744,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Professional Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 61,
             "name": "Meet the Science Guest of Honor: Dr. Arlan Andrews",
             "desc": "<p>\n\t<span style=\"font-family: Calibri, sans-serif; font-size: 14.6667px;\">Futurist, magazine writer and host of the award-winning podcast &ldquo;The Future And You&rdquo;, Stephen Euin Cobb will do a recorded interview with Science GOH Dr. Arlan Andrews.<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -631,9 +756,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Professional Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 62,
             "name": "Meet the Master of Ceremonies: John Hartness",
             "desc": "<p>\n\tFuturist, magazine writer and host of the award-winning podcast &ldquo;The Future And You&rdquo;, Stephen Euin Cobb will do a recorded interview with author, publisher and Master of Ceremonies John Hartness.<\/p>\n",
             "date": "2019-06-28",
@@ -641,9 +768,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Professional Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 63,
             "name": "What's New from Cannon Publishing",
             "desc": "<p>\n\tAuthor and Publisher John . Holmes moderates this panel on the what&#39;s new from Cannon Publishing.<\/p>\n",
             "date": "2019-06-28",
@@ -651,9 +780,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 64,
             "name": "What's New from Silver Empire Publishing",
             "desc": "<p>\n\tRussell Newquist moderates this panel on what is new&nbsp;from Silver Empire Publishing.<\/p>\n",
             "date": "2019-06-28",
@@ -661,9 +792,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 65,
             "name": "9000 Years of Edged Weapons",
             "desc": "<p>\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">Collector, researcher and bladesmith&nbsp;<\/span>Mike Williamson presents 9000 years of edged weapons from his personal collection - original flint, bronze, Iron Age, medieval, on to the present.<\/p>\n",
             "date": "2019-06-28",
@@ -671,9 +804,11 @@
             "length": "120",
             "loc": "CC: Ballroom E",
             "type": "Fan Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 66,
             "name": "Warships of Sea and Space: Form Follows Function Follows Technology",
             "desc": "<div>\n\t&nbsp;<\/div>\n<div>\n\t<span style=\"font-family: Arial, sans-serif; font-size: 16px;\">Nuclear engineer Jim Beall - using many images and videos - traces how the shapes both of historical ships and fictional spacecraft have always depended on technology.<\/span><\/div>\n",
             "date": "2019-06-28",
@@ -681,9 +816,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 67,
             "name": "Outlining Your Novel",
             "desc": "<p>\n\tOutlining Your Novel: Tips on different methods for creating a working outline, and how to turn that outline into a novel.<\/p>\n",
             "date": "2019-06-28",
@@ -691,9 +828,11 @@
             "length": "120",
             "loc": "M: Tennessee River Room",
             "type": "Performer",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 68,
             "name": "All Things Fermented",
             "desc": "<p>\n\tAll Things Fermented: Workshop outlining the world of fermentation - not just beer, but mead, hard cider, kefir, sauerkraut,&nbsp;<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">kombucha, kimchi&nbsp;<\/span>and a plethora of other things worth preserving. William Joseph Roberts moderates.&nbsp;<\/p>\n",
             "date": "2019-06-28",
@@ -701,9 +840,11 @@
             "length": "60",
             "loc": "M: Tennessee River Room",
             "type": "Performer",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 69,
             "name": "Newsletter Marketing",
             "desc": "<p>\n\tSilver Empire Publishers Russell and Morgon Newquist offer this workshop on Newsletter Marketing.<\/p>\n",
             "date": "2019-06-28",
@@ -711,9 +852,11 @@
             "length": "60",
             "loc": "M: Tennessee River Room",
             "type": "Performer",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 70,
             "name": "Mask Making Workshop",
             "desc": "<p>\n\tDebi Chowdhury presents a short workshop on Mask Making!<\/p>\n",
             "date": "2019-06-28",
@@ -721,9 +864,11 @@
             "length": "60",
             "loc": "M: Tennessee River Room",
             "type": "Performer",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 71,
             "name": "Cover Art and Illustration for Fiction Books",
             "desc": "<p>\n\tMitch Foust will moderate this panel on cover art and illustration for fiction books - the challenges of illustrating the essence of a book.<\/p>\n",
             "date": "2019-06-28",
@@ -731,9 +876,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 72,
             "name": "The Fallen World Series",
             "desc": "<p>\n\tChris Woods and Chris Kennedy dish on the&nbsp; Fallen World Series.<\/p>\n",
             "date": "2019-06-28",
@@ -741,9 +888,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 73,
             "name": "All Things Paranormal: UFOs, ESP, Monsters, and More!",
             "desc": "<p>\n\tAll Things Paranormal: a presentation by Science Guest of Honor Dr. Arlan Andrews on&nbsp; UFOs, ESP, Monsters and more!<\/p>\n",
             "date": "2019-06-28",
@@ -751,9 +900,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 74,
             "name": "Why We Can't Go To Mars",
             "desc": "<p>\n\t&nbsp;Stephen Fleming presents: Why We Can&rsquo;t Go to Mars<\/p>\n<p>\n\tElon Musk wants to go to Mars, and take millions of people with him. But there are a lot of challenges. Come learn some of the reasons why a crewed Mars mission is likely decades away.<\/p>\n",
             "date": "2019-06-28",
@@ -761,9 +912,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 75,
             "name": "Pulp Cthulhu",
             "desc": "<p>\n\tAnita Moore will gamemaster this session of eldritch delights! Two-fisted heroic investigations in the Cthulhu Mythos. Will you retain your sanity?<\/p>\n",
             "date": "2019-06-28",
@@ -771,9 +924,11 @@
             "length": "240",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 76,
             "name": "Tau Zero",
             "desc": "<p>\n\t<span style=\"text-align: justify;\">Since July 2016 Jeff Greason has served as chairman of the Board of the Tau Zero Foundation, a non-profit developing advanced propulsion technologies with relevance to both advanced near-term missions and long-term potential for interstellar probes. The Tau Zero Foundation is also laying out options to U.S. policy makers for very frequent, small payload, unconventional launch strategies to enable affordable space strategies such as boost-phase missile defense.<\/span><\/p>\n",
             "date": "2019-06-28",
@@ -781,9 +936,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 77,
             "name": "Hollow Earth Expeditions",
             "desc": "<p>\n\tMichael Gantz will host a four hours session of Hollow Earth Expeditions for your Gaming pleasure!<\/p>\n",
             "date": "2019-06-28",
@@ -791,9 +948,11 @@
             "length": "240",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 78,
             "name": "Watch the Pros play \"Terraforming Mars\"",
             "desc": "<p>\n\tRockets Scientists and Space Operations folks compete to be the most successful Terraformer! Rich Groller hosts.&nbsp;<\/p>\n",
             "date": "2019-06-28",
@@ -801,9 +960,11 @@
             "length": "150",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 79,
             "name": "Reading: Tom Tinney & A.M. Freeman",
             "desc": "<p>\n\tCome out and have a seat as our author guest read passages of her works.<\/p>\n",
             "date": "2019-06-29",
@@ -811,9 +972,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Artist",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 80,
             "name": "Private Event",
             "desc": "<p>\n\tBaen Dinner - private event<\/p>\n",
             "date": "2019-06-29",
@@ -821,9 +984,11 @@
             "length": "150",
             "loc": "M: Tennessee River Room",
             "type": "Professional Panelist",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 81,
             "name": "Mad Scientist Roundtable",
             "desc": "<p>\n\tRoundtable discussion of various and timely science topics moderated by Les Johnson. This is a remarkable panel dating back to the earliest LibertyCons. Everyone gets a say but no one gets to say too much.<\/p>\n",
             "date": "2019-06-29",
@@ -831,9 +996,11 @@
             "length": "120",
             "loc": "CC: Ballroom E",
             "type": "Publisher",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 82,
             "name": "Reading: John Hartness & Mike Massa",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages of their works.<\/p>\n",
             "date": "2019-06-29",
@@ -841,9 +1008,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 83,
             "name": "Cryptocurrency ",
             "desc": "<p>\n\tRich Weyand will do a presentation on the technology of cryptocurrency and what you need to know.<\/p>\n",
             "date": "2019-06-29",
@@ -851,9 +1020,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 84,
             "name": "Reading: H.P. Holo & Jacob Holo",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages of their works.<\/p>\n",
             "date": "2019-06-29",
@@ -861,9 +1032,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 85,
             "name": "Art and Charity Auction",
             "desc": "<p>\n\tMake sure you don&#39;t get outbid - come and enjoy our auctioneers and fabulous artwork, books, Tuckerizations, etc..<\/p>\n",
             "date": "2019-06-29",
@@ -871,9 +1044,11 @@
             "length": "120",
             "loc": "CC: Ballroom E",
             "type": "Professional Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 86,
             "name": "Reading:  Griffin Barber & Kevin Ikenberry",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages of their works<\/p>\n",
             "date": "2019-06-29",
@@ -881,9 +1056,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 87,
             "name": "Space Update",
             "desc": "<p>\n\tLes Johnson on what has happened in the past year in Space, and what might happen in the coming years.<\/p>\n",
             "date": "2019-06-29",
@@ -891,9 +1068,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 88,
             "name": "Reading:  Karl Gallagher & Marina Fontaine",
             "desc": "<p>\n\tCome out and have a seat as our author guests do a reading from their works.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -901,9 +1080,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 89,
             "name": "Setup for ARTC ",
             "desc": "<p>\n\tSetup for ARTC Performance<\/p>\n",
             "date": "2019-06-29",
@@ -911,9 +1092,11 @@
             "length": "120",
             "loc": "CC: Ballroom F",
             "type": "Professional Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 90,
             "name": "Art and Charity Auction Setup",
             "desc": "<p>\n\tRoom prep<\/p>\n",
             "date": "2019-06-29",
@@ -921,9 +1104,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Professional Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 91,
             "name": "Kids Costuming \/ Masquerade and Magic Show",
             "desc": "<p>\n\tFor the kids who love to dress up and show off we offer a great combo. Doc Osborn will introduce each child at the start of his Magic Show and then entertain them in his wonderful world of magic while judges award prizes (Judges: Jonna Hayden, Tamara Lowery and Debi Chowdhury).<\/p>\n",
             "date": "2019-06-29",
@@ -931,9 +1116,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Scientist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 92,
             "name": "Charity Art Jam ",
             "desc": "<p>\n\tWatch the Artists bounce around ideas and complete their vision before time runs out. All the pieces will go to the Charity Auction to be auctioned off!<\/p>\n",
             "date": "2019-06-29",
@@ -941,9 +1128,11 @@
             "length": "120",
             "loc": "Art Show (CC: Meeting Room 4)",
             "type": "Professional Panelist",
-            "guestName": "Michael Z. Williamson"
+            "guestName": "Michael Z. Williamson",
+            "favorite": false
         },
         {
+            "id": 93,
             "name": "Baen Traveling Roadshow and Prize Patrol",
             "desc": "<p>\n\tToni Weisskopf will be running the crowd through the best of what&#39;s going on in the Baen universe. (And there will be giveaways!)<\/p>\n",
             "date": "2019-06-29",
@@ -951,9 +1140,11 @@
             "length": "120",
             "loc": "CC: Ballroom F",
             "type": "Fan Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 94,
             "name": "Art and Charity Auction Teardown ",
             "desc": "<p>\n\tTear down for the art&nbsp; auction&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -961,9 +1152,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Professional Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 95,
             "name": "Banquet and Guest of Honor Speeches",
             "desc": "<p>\n\tSpace Opera themed Luncheon Banquet. Come hear the Guests of Honor speak! Costumes optional!<\/p>\n",
             "date": "2019-06-29",
@@ -971,9 +1164,11 @@
             "length": "120",
             "loc": "M: Tennessee River Room",
             "type": "Professional Panelist",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 96,
             "name": "Artist Guest of Honor Walk Through",
             "desc": "<p>\n\tStroll among the wondrous works of art in our Art Show with the Artist Guest of Honor Mitch Foust. All artists are encouraged to attend.<\/p>\n",
             "date": "2019-06-29",
@@ -981,9 +1176,11 @@
             "length": "60",
             "loc": "Art Show (CC: Meeting Room 4)",
             "type": "Professional Panelist",
-            "guestName": "Michael Z. Williamson"
+            "guestName": "Michael Z. Williamson",
+            "favorite": false
         },
         {
+            "id": 97,
             "name": "Author's \/ Artist's Alley (MJ Allen, Carpenter, Cordova, Del Arroz, Tinney, James Ward)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -991,9 +1188,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 98,
             "name": "Author's \/ Artist's Alley (M. Fontaine\/B. Wheeler, V. Hampton, T. Hoch, C. Sanderson, William Webb)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1001,9 +1200,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 99,
             "name": "Spades Tournament (Second Round)",
             "desc": "<p>\n\tEvery year THERE CAN BE ONLY ONE to win bragging rights for a year. Will you be the one?<\/p>\n",
             "date": "2019-06-29",
@@ -1011,9 +1212,11 @@
             "length": "60",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 100,
             "name": "Spades Tournament (Final Round)",
             "desc": "<p>\n\tEvery year THERE CAN BE ONLY ONE to win bragging rights for a year. Will you be the one?<\/p>\n",
             "date": "2019-06-29",
@@ -1021,9 +1224,11 @@
             "length": "60",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 101,
             "name": "Autograph Session (Coe\/Jackson, Hampson, Kratman, Lewis, McKeown)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-29",
@@ -1031,9 +1236,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 102,
             "name": "Author's Alley (MJ Allen, Carpenter, Cordova, Del Arroz, J. Ward)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1041,9 +1248,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 103,
             "name": "Ice Cream Social",
             "desc": "<p>\n\tOur hospitality staff&#39;s way to cool you off on a hot summer afternoon.<\/p>\n",
             "date": "2019-06-29",
@@ -1051,9 +1260,11 @@
             "length": "60",
             "loc": "Con Suite (M: Presidential Suite)",
             "type": "Professional Panelist",
-            "guestName": "Toni Weisskopf"
+            "guestName": "Toni Weisskopf",
+            "favorite": false
         },
         {
+            "id": 104,
             "name": "Reading: Daniel Allen Butler & Scott Bragg",
             "desc": "<p>\n\tCome out and hear our author guests read from their works.<\/p>\n",
             "date": "2019-06-29",
@@ -1061,9 +1272,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 105,
             "name": "Saturday Night Karaoke",
             "desc": "<p>\n\tSarah Martin will DJ Saturday Night Karoke! Come out and show us your pipes!<\/p>\n",
             "date": "2019-06-29",
@@ -1071,9 +1284,11 @@
             "length": "120",
             "loc": "M: Tennessee River Room",
             "type": "Professional Panelist",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 106,
             "name": "Author's \/ Artist's Alley (Dandridge, Hartness, Holmes, Humphreys, Sherrer)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1081,9 +1296,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 107,
             "name": "Reading:  Monalisa Foster & Doug Burbey",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages from their works.<\/p>\n",
             "date": "2019-06-29",
@@ -1091,9 +1308,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Artist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 108,
             "name": "Indie Publishing -  Latest Trends in Self-Publishing and the State of the Market",
             "desc": "<p>\n\tJim Curtis will moderate this years continuing series from&nbsp; Peter Grant and Dorothy Klapp on indie publishing and the state of the market, with emphasis on new developments that occurred over the previous year.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1101,9 +1320,11 @@
             "length": "120",
             "loc": "M: Tennessee River Room",
             "type": "Author",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 109,
             "name": "Reading:  J.D. Jordan & Michael H. Hanson",
             "desc": "<p>\n\tCome and enjoy a reading by our author guests.<\/p>\n",
             "date": "2019-06-29",
@@ -1111,9 +1332,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 110,
             "name": "Author's \/ Artist's Alley (Q. Allen, Dandridge, Hartness, Holmes, Humphreys)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1121,9 +1344,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 111,
             "name": "What's New from Steve Jackson Games",
             "desc": "<p>\n\tSteve Jackson dishes on the latest developments from his secret games laboratory. He will even sign autographs. Come one, come all!<\/p>\n",
             "date": "2019-06-29",
@@ -1131,9 +1356,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 112,
             "name": "Steve Jackson Games - Open Gaming",
             "desc": "<p>\n\tSteve Jackson Games will demo new and familiar games - come one, come all!<\/p>\n",
             "date": "2019-06-29",
@@ -1141,9 +1368,11 @@
             "length": "60",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 113,
             "name": "Star Realms Tournament",
             "desc": "<p>\n\tAuthor Jonathan Del Arroz will host a Star Realms Tournament with prizes.<\/p>\n",
             "date": "2019-06-29",
@@ -1151,9 +1380,11 @@
             "length": "180",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 114,
             "name": "ARTC Presentations: \"Mercury - A Broadcast of Hope\"; \"Who is Killing the Great SF Writers of America\"; \"Nothing at All\"",
             "desc": "<p>\n\tThis year&#39;s Atlanta Radio Theatre Company (ARTC) presentations will be:&nbsp;<span font-size:=\"\" helvetica=\"\" style=\"font-family: \">An episode of our Daily Podcast: &quot;Mercury - A Broadcast of Hope&quot; (about 5 minutes)&nbsp;<\/span><span font-size:=\"\" helvetica=\"\" style=\"font-family: \">After the zombie apocalypse, a handful of people operate a college radio station broadcasting practical tips, advice, and hope.<\/span><\/p>\n<p>\n\t<span font-size:=\"\" helvetica=\"\" style=\"font-family: \">&quot;Who is Killing the Great Science Fiction Writers of America&quot; -&nbsp;<\/span><span font-size:=\"\" helvetica=\"\" style=\"font-family: \">an episode of the series &quot;The Three Galaxateers&quot; - written by Ron N. Butler.&nbsp;<\/span><span font-size:=\"\" helvetica=\"\" style=\"font-family: \">During World War II three famous science fiction writers work on war projects for the US government.&nbsp;<\/span><span font-size:=\"\" helvetica=\"\" style=\"font-family: \">In this episode they discover that someone is killing other SF writers; starting with&nbsp;Henry Pepper, gun collector and writer of stories about alternate realities.<\/span><span font-size:=\"\" helvetica=\"\" style=\"font-family: \">(about 20 minutes)<\/span><\/p>\n<div font-size:=\"\" helvetica=\"\" style=\"font-family: \">\n\t&quot;Nothing at All&quot; - a fantasy play by Kelley S. Ceccato. In this Celtic fantasy, a young girl, with a talent for medicine, is obliged to treat an evil wizard&#39;s sickly,&nbsp;surly son. (about 30 minutes)<\/div>\n",
             "date": "2019-06-29",
@@ -1161,9 +1392,11 @@
             "length": "120",
             "loc": "CC: Ballroom F",
             "type": "Fan Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 115,
             "name": "The Care and Feeding of Your Used Book Collection",
             "desc": "<p>\n\tChris Oakley of &quot;Oakley&#39;s Gently Used Books&quot; gives a presentation of the proper care and feeding of your library, especially if you are a book collector with rare or used books.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1171,9 +1404,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Fan Panelist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 116,
             "name": "Author's Alley (Burkhead, Carpenter, C. Kennedy, Tinney, James Ward)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1181,9 +1416,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 117,
             "name": "Author's \/ Artist's Alley (Gibbons, HP & J. Holo, L. Johnson, Maggert, Schantz)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1191,9 +1428,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 118,
             "name": "Author's \/ Artist's Alley (S. Osborn, Spriggs, Swann)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1201,9 +1440,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 119,
             "name": "Author's \/ Artist's Alley (Curtis, T. Howard\/M, Wyers, Howell, Lowery, Weyand)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1211,9 +1452,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 120,
             "name": "Author's \/ Artist's Alley (Beckwith, Duntemann, T. Howard\/M. Wyers, Rodgers, Sherrer )",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1221,9 +1464,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 121,
             "name": "Author's \/ Artist's Alley (K. Bogen, Hartness, J.D. Jordan, Malone, Sherrer)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1231,9 +1476,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 122,
             "name": "Author's \/ Artist's Alley (Fontaine\/Wheeler, Frost, Ikenberry, McKeown, C. Sanderson)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1241,9 +1488,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 123,
             "name": "Reading:  Amie Gibbons & Quincy J. Allen",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages of from their works<\/p>\n",
             "date": "2019-06-29",
@@ -1251,9 +1500,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 124,
             "name": "Dragonriders of Pern LARP",
             "desc": "<p>\n\tDr. Valerie Hampton hosts&nbsp;<span style=\"font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt;\">Dragonriders of Pern LARP:&nbsp;<\/span><span style=\"font-size: 12pt; font-family: Calibri, Arial, Helvetica, sans-serif;\">Lord Asgenar has been gifted with a clutch of firelizard eggs from Beauty&#39;s last flight and is holding a Gather to celebrate the new little thread flaming helpers. Festivities abound as travelers from all over Lemos make their way to the Gather for it is rumored that Lord Asgenar won&#39;t be keeping all the firelizards but doling some out in lottery to help with ground crews. Whether runnerbeast racing, bubbly pies, or a chance at a firelizard is your game the Spring Gather won&#39;t disappoint.<\/span><\/p>\n<div style=\"font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt;\">\n\tBe familiar with Dragonriders of Pern, or even read the Wiki to be set. (Everything will be provided. Groups will be separated by dragonriders, crafters, and holders. Harpers can join any group. Costuming is encouraged.)<\/div>\n<div style=\"font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt;\">\n\tAll ages can participate.<\/div>\n",
             "date": "2019-06-29",
@@ -1261,9 +1512,11 @@
             "length": "180",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 125,
             "name": "Reading:  Ed McKeown & Melissa Gay",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages of their works.<\/p>\n",
             "date": "2019-06-29",
@@ -1271,9 +1524,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 126,
             "name": "Author's Alley (Braker, Freeman, Hoch, Maggert, R & M Newquist)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-29",
@@ -1281,9 +1536,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 127,
             "name": "Reading:  Stephen J. Simmons & David Boop",
             "desc": "<p>\n\tCome listen as our authors read from their works.<\/p>\n",
             "date": "2019-06-29",
@@ -1291,9 +1548,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Artist",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 128,
             "name": "Retro-Futurist Alternate History",
             "desc": "<p>\n\tLou Antonelli moderates this panel on the myriad possibilities of worlds set in retro-futurist alternate history universes.<\/p>\n",
             "date": "2019-06-29",
@@ -1301,9 +1560,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Publisher",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 129,
             "name": "Banquet Set Up",
             "desc": "<p>\n\tSetup for the GOH Banquet<\/p>\n",
             "date": "2019-06-29",
@@ -1311,9 +1572,11 @@
             "length": "120",
             "loc": "M: Tennessee River Room",
             "type": "Professional Panelist",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 130,
             "name": "Walking With the Pros",
             "desc": "<p>\n\tToni Weiskopf has organized a morning constitutional for pros and fans. Come for an early morning walk with the pros. All Welcome. Meet in the Marriott Lobby.<\/p>\n",
             "date": "2019-06-29",
@@ -1321,9 +1584,11 @@
             "length": "60",
             "loc": "The Marriott Lobby",
             "type": "Professional Panelist",
-            "guestName": "Joe McKeel"
+            "guestName": "Joe McKeel",
+            "favorite": false
         },
         {
+            "id": 131,
             "name": "Banquet Clean-up",
             "desc": "<p>\n\tBanquet Clean-up and room reset<\/p>\n",
             "date": "2019-06-29",
@@ -1331,9 +1596,11 @@
             "length": "60",
             "loc": "M: Tennessee River Room",
             "type": "Professional Panelist",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 132,
             "name": "Reading:  Karen Evans and Kevin Evans",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages from their works.<\/p>\n",
             "date": "2019-06-29",
@@ -1341,9 +1608,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 133,
             "name": "Reading:  Cedar Sanderson & Kal Spriggs",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages from works<\/p>\n",
             "date": "2019-06-29",
@@ -1351,9 +1620,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 134,
             "name": "Seventh Seal Press & Rob Howell present the Chris Kennedy Publishing combined Room Party and Book Launch for Alabaster Noon",
             "desc": "<p>\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">Seventh Seal Press &amp; Rob Howell present the Chris Kennedy Publishing combined Room Party and Book Launch for Alabaster Noon, the final book in The Omega War series.<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1361,9 +1632,11 @@
             "length": "180",
             "loc": "Party Alley (M: 3rd Floor)",
             "type": "Artist \/ Author",
-            "guestName": "Leo Champion"
+            "guestName": "Leo Champion",
+            "favorite": false
         },
         {
+            "id": 135,
             "name": "Understanding the Two Slit Experiment",
             "desc": "<p>\n\tDr. Hans Schantz presents &quot;Understanding the Two Slit Experiment&quot;, about the role of the observer in quantum mechanics.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1371,9 +1644,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 136,
             "name": "INCOMING! The Chixulub Asteroid Impact and Its Effects",
             "desc": "<p>\n\t&nbsp;Stephanie Osborn presents&nbsp;<i style=\"font-family: Verdana, Geneva, sans-serif; font-size: 13.3333px;\">INCOMING! The Chixulub Asteroid Impact and Its Effects.&nbsp;<\/i><\/p>\n",
             "date": "2019-06-29",
@@ -1381,9 +1656,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 137,
             "name": "Pulp Cthulhu ",
             "desc": "<p>\n\tAnita Moore will gamemaster this session of eldritch delights! Two-fisted heroic investigations in the Cthulhu Mythos. Will you retain your sanity?<\/p>\n",
             "date": "2019-06-29",
@@ -1391,9 +1668,11 @@
             "length": "240",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 138,
             "name": "Reading: Stephanie Osborn & Robert Buettner",
             "desc": "<p>\n\tCome out and hear our authors read passages from their works<\/p>\n",
             "date": "2019-06-29",
@@ -1401,9 +1680,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 139,
             "name": "Writers Tell Sea Stories II",
             "desc": "<p>\n\tSteve Simmons moderates this panel of authors with naval backgrounds on how the romance of the sea informs Science Fiction and Fantasy.<\/p>\n",
             "date": "2019-06-29",
@@ -1411,9 +1692,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 140,
             "name": "Masters of Military Science Fiction",
             "desc": "<p>\n\t&nbsp;Chris Kennedy moderates this discussion on the essential elements necessary to create good hard military science fiction that sells.<\/p>\n",
             "date": "2019-06-29",
@@ -1421,9 +1704,11 @@
             "length": "60",
             "loc": "CC: Ballroom F",
             "type": "Author",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 141,
             "name": "Reading:  David (D.J.) Butler & C.S. Ferguson",
             "desc": "<p>\n\tCome out and here our authors read passages from their works.<\/p>\n",
             "date": "2019-06-29",
@@ -1431,9 +1716,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 142,
             "name": "ChattaCon 45 Room Party ",
             "desc": "<p>\n\tCome join KC Charland and the ChattaCon Room Party and support your local con!<\/p>\n",
             "date": "2019-06-29",
@@ -1441,9 +1728,11 @@
             "length": "180",
             "loc": "Party Alley (M: 3rd Floor)",
             "type": "Artist \/ Author",
-            "guestName": "Leo Champion"
+            "guestName": "Leo Champion",
+            "favorite": false
         },
         {
+            "id": 143,
             "name": " Essential Elements of High Fantasy",
             "desc": "<p>\n\tWhat are the essential elements that make High Fantasy readable, believable and compelling.&nbsp; Our panel of experts will discuss the core of the genre.&nbsp; S. Andrew Swann moderates.<\/p>\n",
             "date": "2019-06-29",
@@ -1451,9 +1740,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 144,
             "name": "World Building for Space Opera ",
             "desc": "<p>\n\tOur panelists will discuss the nuances of good world building in Space Opera.&nbsp; &nbsp;Mark Wandrey moderates.<\/p>\n",
             "date": "2019-06-29",
@@ -1461,9 +1752,11 @@
             "length": "60",
             "loc": "CC: Ballroom F",
             "type": "Author",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 145,
             "name": "Principles of Game Design",
             "desc": "<p>\n\tSteve Jackson moderates this lightning panel on the principles of game design that transcend the modalities of gaming, be they board, card or RPG.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1471,9 +1764,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 146,
             "name": "What's New in YA Fantasy?",
             "desc": "<p>\n\t&nbsp;David Butler moderates this roundtable on what&#39;s new in young adult fantasy.<\/p>\n",
             "date": "2019-06-29",
@@ -1481,9 +1776,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Publisher",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 147,
             "name": "Terrain Modeling Demonstration",
             "desc": "<p>\n\tAnita Moore will host a Terrain Modeling Demonstration in the Art Show.<\/p>\n",
             "date": "2019-06-29",
@@ -1491,9 +1788,11 @@
             "length": "90",
             "loc": "Art Show (CC: Meeting Room 4)",
             "type": "Scientist \/ Author",
-            "guestName": "Michael Z. Williamson"
+            "guestName": "Michael Z. Williamson",
+            "favorite": false
         },
         {
+            "id": 148,
             "name": "Character Development in Military Science Fiction",
             "desc": "<p>\n\t&nbsp;Doug Dandridge will moderate this discussion on what it takes to be believeable and what you need to consider when doing character development for Military Science Fiction.<\/p>\n",
             "date": "2019-06-29",
@@ -1501,9 +1800,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 149,
             "name": "New Voices in YA Science Fiction",
             "desc": "<p>\n\t&nbsp;Kal Spriggs moderates this discussion exploring new voices in science fiction in young adult literature.<\/p>\n",
             "date": "2019-06-29",
@@ -1511,9 +1812,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 150,
             "name": "Chris Kennedy Publishing - The Year Ahead",
             "desc": "<p>\n\tJoin Chris Kennedy and his crew of writers as they discuss what the next year holds in store!<\/p>\n",
             "date": "2019-06-29",
@@ -1521,9 +1824,11 @@
             "length": "60",
             "loc": "CC: Ballroom F",
             "type": "Fan Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 151,
             "name": "Autograph Session (Coe\/Jackson, Ikenberry,)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-29",
@@ -1531,9 +1836,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 152,
             "name": "Autograph Session (Bragg, Daniel A. Butler, Fontaine, Frost)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-29",
@@ -1541,9 +1848,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 153,
             "name": "Autograph Session (MJ Allen, Buettner, Del Arroz, Spriggs)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-29",
@@ -1551,9 +1860,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 154,
             "name": "Autograph Session (Finn, Gallagher)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-29",
@@ -1561,9 +1872,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 155,
             "name": "Autograph Session (D. Burkhead, W. Webb)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-29",
@@ -1571,9 +1884,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 156,
             "name": "Autograph Session (A. Gibbons, T. Lowery, R & M Newquist)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-29",
@@ -1581,9 +1896,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 157,
             "name": "Unconventional Art (Creating Outside the Box)",
             "desc": "<p>\n\tThey are few and far between, masters in their craft, and ready to talk to YOU about it! Not every artist paints and draws, sit in with these LC Veterans and see why they chose to think outside the box! From stained glass to chainmail. jewelry to diorama creation to puppetry, these artists are incredible craftspeople just waiting to share their passion with you! Leia Powell (mod.)<\/p>\n",
             "date": "2019-06-29",
@@ -1591,9 +1908,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 158,
             "name": "World Building Across the Genres",
             "desc": "<p>\n\tDan Hollifield&nbsp; moderates this panel on what it takes to build a believe-able nuanced world as a landscape for fantasy, science fiction, steampunk or horror.<\/p>\n",
             "date": "2019-06-29",
@@ -1601,9 +1920,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Author",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 159,
             "name": "Nerd Music Free For All",
             "desc": "<p>\n\tOpen Filking with Gray Rinehart<\/p>\n",
             "date": "2019-06-29",
@@ -1611,9 +1932,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Professional Panelist",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 160,
             "name": "Kids Dungeons and Dragons Edition 3.5",
             "desc": "<p>\n\tTaylor Hoch will run this Edition 3.5 campaign designed for kids, but available for all comers.<\/p>\n",
             "date": "2019-06-29",
@@ -1621,9 +1944,11 @@
             "length": "180",
             "loc": "M: East\/West Room",
             "type": "Scientist",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 161,
             "name": "Reading:  Joe Meany & Daniel Humphreys",
             "desc": "<p>\n\tCome out and join our authors as they read passages from their works.&nbsp;&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1631,9 +1956,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 162,
             "name": "Are You a Werewolf? Kids Edition",
             "desc": "<p>\n\tValerie Hampton&nbsp; moderates this kid friendly version of Are You a Werewolf?&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1641,9 +1968,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Scientist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 163,
             "name": "The Future of Power Storage Technologies",
             "desc": "<p>\n\tDavid Bogen will moderate this panel discussion on the future of power storage technologies, to include traditional and alternative fuels.<\/p>\n",
             "date": "2019-06-29",
@@ -1651,9 +1980,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Author",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 164,
             "name": "Rams Head Book Launch \/ Room Party",
             "desc": "<p>\n\t<span font-size:=\"\" helvetica=\"\" libre=\"\" style=\"color: rgb(51, 51, 51); font-family: \">Rams Head&nbsp;Books presents the Book&nbsp;Launch Party for Taylor S Hoch&rsquo;s&nbsp;<\/span><span font-size:=\"\" helvetica=\"\" libre=\"\" style=\"color: rgb(51, 51, 51); font-family: \">Volume 6 of the continuing saga of Prospero Clydesdale O&rsquo;Shaunesssy&rsquo;s &ldquo;Curse of the Dullahan&rdquo; series, &ldquo;Seizing the Stone.&rdquo;<\/span><\/p>\n<div font-size:=\"\" helvetica=\"\" libre=\"\" style=\"box-sizing: inherit; color: rgb(51, 51, 51); font-family: \">\n\t&nbsp;<\/div>\n<p>\n\t&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1661,9 +1992,11 @@
             "length": "180",
             "loc": "Party Alley (M: 3rd Floor)",
             "type": "Artist \/ Author",
-            "guestName": "Leo Champion"
+            "guestName": "Leo Champion",
+            "favorite": false
         },
         {
+            "id": 165,
             "name": "Fireside Chats: 3 Short Science Talks on Brain Science",
             "desc": "<p>\n\t<span style=\"font-family: Calibri, sans-serif; font-size: 14.6667px;\">Robert E. Hampson, Brent Roeder and Nik Rao are clinical scientists studying learning &amp; memory, prosthetics, brain imaging and psychiatry.&nbsp; They will give short talks from their area of expertise discussing current medical efforts to understand the human brain and keep it healthy.<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1671,9 +2004,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Fan Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 166,
             "name": "Space Pioneers",
             "desc": "<p>\n\tSarah Hoyt and Jeff Greason dish on the new anthology Space Pioneers and the spirit of exploration.<\/p>\n",
             "date": "2019-06-29",
@@ -1681,9 +2016,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 167,
             "name": "Private Event Setup",
             "desc": null,
             "date": "2019-06-29",
@@ -1691,9 +2028,11 @@
             "length": "90",
             "loc": "M: Tennessee River Room",
             "type": "Professional Panelist",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 168,
             "name": "Private Event Teardown \/ Karaoke Setup",
             "desc": "<p>\n\tPrivate Event Teardown \/ Karaoke Setup<\/p>\n",
             "date": "2019-06-29",
@@ -1701,9 +2040,11 @@
             "length": "60",
             "loc": "M: Tennessee River Room",
             "type": "Professional Panelist",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 169,
             "name": "Tear Down for ARTC",
             "desc": null,
             "date": "2019-06-29",
@@ -1711,9 +2052,11 @@
             "length": "90",
             "loc": "CC: Ballroom F",
             "type": "Professional Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 170,
             "name": "Freehold: Resistance Roundtable ",
             "desc": "<p>\n\tMichael. Z. Williamson will moderate this roundtable on the next installment of the Freehold series Resistance, followed by a Mass Autograph session.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1721,9 +2064,11 @@
             "length": "90",
             "loc": "CC: Ballroom F",
             "type": "Publisher",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 171,
             "name": "Freehold: Resistance Mass Autograph Session",
             "desc": "<p>\n\tFreehold: Resistance Mass Autograph Session following the RT.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1731,9 +2076,11 @@
             "length": "30",
             "loc": "CC: Ballroom F",
             "type": "Editor",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 172,
             "name": "Falstaff Spotlight",
             "desc": "<p>\n\tAuthor and Publisher John Hartness will discuss on what&#39;s new from Falstaff Publishing.<\/p>\n",
             "date": "2019-06-29",
@@ -1741,9 +2088,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 173,
             "name": "The Omega War - the New 4 Horseman Universe Game",
             "desc": "<p>\n\tJoin Chris Kennedy, Mark Wandrey and Jon Osborne for the debut of the new Kickstartergame &quot;The Omega War&quot; from the New 4 Horseman Universe.<\/p>\n",
             "date": "2019-06-29",
@@ -1751,9 +2100,11 @@
             "length": "120",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 174,
             "name": "\"Art in Science or the Science in Art?\"",
             "desc": "<p>\n\t<span font-size:=\"\" new=\"\" style=\"font-family: tahoma, \">An engineer presents images and videos.&nbsp; Are they Art?&nbsp; Or are they Science? The artist&#39;s make their ruling and then announce the results.&nbsp; Arguments will ensue!<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1761,9 +2112,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Author",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 175,
             "name": "Critters",
             "desc": "<p>\n\tKal Spriggs moderates:&nbsp; You&#39;ve &#39;built&#39; that quirky planet you &#39;d like to play on. Now you need some critters that could evolve and survive there. What issues do you need to consider in designing them? A rough planet design will be provided as the focus for the discussion.&nbsp;<\/p>\n<p>\n\t&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1771,9 +2124,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 176,
             "name": "The Good, the Bad, and the Ugly: Writing Advice",
             "desc": "<div>\n\tThe Good, the Bad, and the Ugly: Writing Advice - a discussion of common writing tips and how to evaluate what advice is right for you. Anna Grace Carpenter moderates.<\/div>\n",
             "date": "2019-06-29",
@@ -1781,9 +2136,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 177,
             "name": "From Pinplants to the Terminal Man: Can Science Build the Better Humans Envisioned by SF?",
             "desc": "<p>\n\t<span style=\"font-family: Calibri, sans-serif; font-size: 14.6667px;\">Brain implants are a common feature of Science Fiction.&nbsp; Science is rapidly catching up with Science Fiction in developing computer interfaces, connection with robotic limbs, and the means to treat disorders of the brain. Science Fiction still holds the high ground with respect to downloading &nbsp;memories and developing hybrid human-computer AIs and cyborgs; but Science is closing in with prosthetics and transcranial stimulation to treat a number of disorders.&nbsp; What is fact? &nbsp;What is (still) fiction? Where can science and science fiction go from here? Dr. Robert Hampson moderates.<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1791,9 +2148,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Author",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 178,
             "name": "Back to the Moon!",
             "desc": "<p>\n\tStephen Fleming presents :Back to the Moon!&nbsp; Five decades ago, humans first set foot on the Moon. Now, it&rsquo;s time to go back... this time, to stay! Join us for a discussion of how we&rsquo;ll get there, what we&rsquo;ll do, and why it&rsquo;s important.<\/p>\n<p>\n\t&nbsp;<\/p>\n<p>\n\t&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1801,9 +2160,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 179,
             "name": "The Challenges of Cyberwarfare",
             "desc": "<p>\n\tRich Weyand moderates this panel on the challenges of waging and survivng cyberwarfare.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1811,9 +2172,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 180,
             "name": "Beamed Energy Launch ",
             "desc": "<p>\n\t<span style=\"text-align: justify;\">Starting in February 2016 Jeff Greason began served as CTO of Electric Sky, where he invented a number of new wireless power transfer technologies for unconventional space launch and other purposes. He hosts this panel discussion on the promise of beamed energy launches.<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1821,9 +2184,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Author",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 181,
             "name": "Indy Author Resources Panel",
             "desc": "<p>\n\t<span style=\"text-align: justify;\">&nbsp;Bad Ash Publishing owner Melissa Todd moderates this panel on where to find the best tools to assist independent authors.<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1831,9 +2196,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Author",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 182,
             "name": "Understanding Relativity (General and Special) ",
             "desc": "<p>\n\tDr. Ben Davis will attempt to explain Einstein&#39;s Theory of Relativity in under an hour! Come and be amazed.....<\/p>\n",
             "date": "2019-06-29",
@@ -1841,9 +2208,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 183,
             "name": "Nuclear Weapons 101",
             "desc": "<p>\n\tKen Roy moderates this panel discussion on Nuclear Weaponry, Radiation and nuclear effects.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1851,9 +2220,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Author",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 184,
             "name": "500 Vampires, No Waiting",
             "desc": "<p>\n\t<span style=\"font-family: arial, helvetica, sans-serif; font-size: 13.3333px;\">500 Vampires, No Waiting: How many vampire types are out there? Do you prefer the supernatural? The aliens? The Wesley Snipes movies? Declan Finn moderates this panel on the many varieties of Nosferatu.<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1861,9 +2232,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Publisher",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 185,
             "name": "Constructing the Blade Files: Looking at Cyberpunk from a Different Perspective",
             "desc": "<p>\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">Constructing the Blade Files: Looking at Cyberpunk from a Different Perspective.&nbsp;<\/span><span style=\"font-family: tahoma, sans-serif; font-size: small;\">It doesn&#39;t have to be grunge, despair, and dystopia to be CYBERPUNK!&nbsp; Daniel Allen Butler and Scott Bragg will discuss their vision of and plans for expanding the range of the genre, as well as its meaning, with their near-future series of novels,&nbsp;<\/span><i style=\"font-family: tahoma, sans-serif; font-size: small;\">The Blade Files<\/i><span style=\"font-family: tahoma, sans-serif; font-size: small;\">.<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1871,9 +2244,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 186,
             "name": "Ultimate Are You a Werewolf? Teens\/Adults Edition",
             "desc": "<p>\n\tValerie Hampton hosts this Ultimate Werewolf edition for teens and adults.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1881,9 +2256,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Professional Panelist",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 187,
             "name": "Rise of the Fae",
             "desc": "<p>\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">First it was the vampires, then the werewolves, now we have the fae. In&nbsp;<\/span><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">the past five years, fae have risen in popularity as subjects for urban&nbsp;<\/span><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">fantasy tales. Are fae the new vampires? Or have they always been there?&nbsp;<\/span><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">Why are they so popular now and where do we see them going in the future?&nbsp;<\/span><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">Join a panel of experts as they discuss these latest writing&nbsp;<\/span><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">trends in relation popular culture, art and the business of writing itself. Lydia Sherrer moderates.&nbsp;<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1891,9 +2268,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 188,
             "name": "The Allure of Pirates",
             "desc": "<p>\n\tTamara Lowery moderates this panel on the allure of Pirates, be they at sea or in space.<\/p>\n",
             "date": "2019-06-29",
@@ -1901,9 +2280,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Author",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 189,
             "name": "\"Inner Demons\" and other Short Film Screenings",
             "desc": "<p>\n\t<span style=\"font-family: Calibri, Helvetica, sans-serif; font-size: 16px;\">A slew of short films by Award Winning Film Maker Robert S. Evans.&nbsp; Come and walk through this journey of various films from his career, as well as a showing of his newest horror short film, &quot;Inner Demons&quot;, about a Paranormal Investigator who doesn&#39;t believe in what he does finding out that things are far more real than he ever imagined.<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1911,9 +2292,11 @@
             "length": "60",
             "loc": "CC: Ballroom F",
             "type": "Fan Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 190,
             "name": "The Art of Visual Storytelling",
             "desc": "<p>\n\t<span style=\"font-family: Calibri, Helvetica, sans-serif; font-size: 16px;\">Have you ever watched a movie and walked away wondering exactly how they got you to feel the way they did?&nbsp; How did they manage to get those sensations in such a short amount of time?&nbsp; Everything that is in the frame means something, from the angle, to the color, to where someone is standing.&nbsp; Award-Winning independent film maker Robert S. Evans walks through and teaches the fascinating world of telling a story through visual media.&nbsp;&nbsp;<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1921,9 +2304,11 @@
             "length": "60",
             "loc": "CC: Ballroom F",
             "type": "Fan Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 191,
             "name": "The Supernatural and Shamanic Traditions in Literature",
             "desc": "<p>\n\tHolly McClure moderates this panel on how the supernatural and shamanic traditions are portrayed in fantasy literature.<\/p>\n",
             "date": "2019-06-29",
@@ -1931,9 +2316,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Author",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 192,
             "name": "How to Write Compelling Short Stories ",
             "desc": "<p>\n\tLou Antonelli moderates this panel on the art of writing in the short story format.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1941,9 +2328,11 @@
             "length": null,
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 193,
             "name": "Writing with a Co-Author",
             "desc": "<p>\n\tMelissa Todd moderates this panel on Co-Authoring: How to write a novel or series with another person. Tips, tricks, struggles, and tools.<\/p>\n",
             "date": "2019-06-29",
@@ -1951,9 +2340,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Author",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 194,
             "name": "Learning to See: How to examine a visual image and translate it into a wearable costume",
             "desc": "<p>\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">&quot;Learning to See--How to examine a visual image and translate it to wearable costume&quot;. Professional Costume Designer Jonna Haydn presents. So many people want to make something they&#39;ve seen in movies, anime, or art, but don&#39;t have any idea where to start. She will&nbsp; walk people through various images, examining the structure, layers, fabric content, and construction ideas so they can strategize on how to build their dream costume.<\/span><\/p>\n",
             "date": "2019-06-29",
@@ -1961,9 +2352,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Fan Panelist",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 195,
             "name": "Industrial vs. Mecha",
             "desc": "<p>\n\tIndustrial \/ Mechanical Engineers square off against Mecha authors to discuss &quot;Mech&quot; realism and the realm of the possible. William Joseph Roberts moderates.&nbsp;<\/p>\n",
             "date": "2019-06-29",
@@ -1971,9 +2364,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Author",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 196,
             "name": "Meet and Greet the First Timers!",
             "desc": "<p>\n\tCome welcome and get familliar with some of our first time at LibertyCon pros.&nbsp; John Ringo will host.<\/p>\n",
             "date": "2019-06-29",
@@ -1981,9 +2376,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Publisher",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 197,
             "name": "This is ARTC!",
             "desc": "<p>\n\tMembers of the Atlanta Radio Theater Company (ARTC) discuss the history of and what it takes to become, as member ot the institution!<\/p>\n",
             "date": "2019-06-29",
@@ -1991,9 +2388,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 198,
             "name": "Reading:  Tom Kratman & Mark Wandrey",
             "desc": "<p>\n\tCome out and have a seat as our author guest reads passages of their works<\/p>\n",
             "date": "2019-06-30",
@@ -2001,9 +2400,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 199,
             "name": "Reading:  Gray Rinehart & David B. Coe \/ D.B. Jackson",
             "desc": "<p>\n\tCome out and have a seat as our author guests reads passages of their works.<\/p>\n",
             "date": "2019-06-30",
@@ -2011,9 +2412,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 200,
             "name": "Closing Ceremonies - Let's Bitch at Brandy",
             "desc": "<p>\n\tDid you have a great time at the convention? Or was there something that absolutely irritated you? Either way, come out and let us know at our Closing Ceremonies.<\/p>\n",
             "date": "2019-06-30",
@@ -2021,9 +2424,11 @@
             "length": "60",
             "loc": "CC: Ballroom F",
             "type": "Professional Panelist",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 201,
             "name": "What's New From Copper Dog Publishing",
             "desc": "<p>\n\tPublisher Michael Hanson and his authors talk about what&#39;s new this year from Copper Dog Publishing \/ Moondream Press.<\/p>\n",
             "date": "2019-06-30",
@@ -2031,9 +2436,11 @@
             "length": "60",
             "loc": "CC: Ballroom E",
             "type": "Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 202,
             "name": "What's New in 1632 \/ Grantville Roundtable",
             "desc": "<p>\n\t&nbsp;Rick Boatright moderates this panel on what is new in the 1632 \/ Grantville universe in all it&#39;s alternate history glory, with a mass autograph session to follow.<\/p>\n",
             "date": "2019-06-30",
@@ -2041,9 +2448,11 @@
             "length": "90",
             "loc": "CC: Ballroom F",
             "type": "Publisher",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 203,
             "name": "The Art of Editing",
             "desc": "<p>\n\tSeasoned editors discuss the tricks of the trade. Jim Minz moderates.<\/p>\n",
             "date": "2019-06-30",
@@ -2051,9 +2460,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 204,
             "name": "Reading: Phil Wohlrab & Karen Bogen",
             "desc": "<p>\n\tCome out and have a seat as our author guests read passages from their works<\/p>\n",
             "date": "2019-06-30",
@@ -2061,9 +2472,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 205,
             "name": "Reading: Michael J. Allen & D. Alan Lewis",
             "desc": "<p>\n\tCome out and have a seat as our authors reads passages of their works<\/p>\n",
             "date": "2019-06-30",
@@ -2071,9 +2484,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Artist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 206,
             "name": "Reading: Tamara Lowery & David L. Burkhead",
             "desc": "<p>\n\tCome out and have a seat as our author guests reads passages of their works<\/p>\n",
             "date": "2019-06-30",
@@ -2081,9 +2496,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 207,
             "name": "Reading: S. Andrew Swann & ",
             "desc": "<p>\n\tCome out and have a seat as our author guests reads passages of their works<\/p>\n",
             "date": "2019-06-30",
@@ -2091,9 +2508,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Artist",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 208,
             "name": "Celebrity Jeopardy",
             "desc": "<p>\n\tWatch as Alan Andrews, Amanda Makepeace and John Hartness battle it out with fast answers on Art, Science, Literature and other fun topics. There can be only ONE!<\/p>\n",
             "date": "2019-06-30",
@@ -2101,9 +2520,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Professional Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 209,
             "name": "Author's \/ Artist's Alley (Beckwith, Gibbons, H.P. & J. Holo, C. Kennedy, Schantz)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-30",
@@ -2111,9 +2532,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 210,
             "name": "Author's Alley (Q. Allen, J. Hunter, Malone, McKeown, Spriggs)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-30",
@@ -2121,9 +2544,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 211,
             "name": "Kaffeeklatsch",
             "desc": "<p>\n\tHave coffee \/ continental breakfast and chat with the pros.<\/p>\n",
             "date": "2019-06-30",
@@ -2131,9 +2556,11 @@
             "length": "60",
             "loc": "M: Tennessee River Room",
             "type": "Professional Panelist",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 212,
             "name": "Author's \/ Artist's Alley (Braker, Frost, Howell, J.D. Jordan, McClure)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-30",
@@ -2141,9 +2568,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 213,
             "name": "Writing within Pop Culture",
             "desc": "<p>\n\tMartin Powell and David Boop discuss the mechanics of producing literature for media tie-ins and pop culture.<\/p>\n",
             "date": "2019-06-30",
@@ -2151,9 +2580,11 @@
             "length": "60",
             "loc": "CC: Ballroom F",
             "type": "Author",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 214,
             "name": "Balloons of Doom",
             "desc": "<p>\n\tDoc Osborn unleashes controlled chaos with his balloons of doom!<\/p>\n",
             "date": "2019-06-30",
@@ -2161,9 +2592,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Scientist",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 215,
             "name": "New Homes for Humanity: Terraforming Mercury and Venus",
             "desc": "<p>\n\tKen Roy gives a fascinating presentation on what the future could hold with respect to terraforming Mercury and Venus.<\/p>\n",
             "date": "2019-06-30",
@@ -2171,9 +2604,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 216,
             "name": "Steve Jackson Games - Open Gaming",
             "desc": "<p>\n\tSteve Jackson Games will demo new and familiar games - come one, come all!<\/p>\n",
             "date": "2019-06-30",
@@ -2181,9 +2616,11 @@
             "length": "60",
             "loc": "M: East\/West Room",
             "type": "Author \/ Performer",
-            "guestName": "Sarah A. Hoyt"
+            "guestName": "Sarah A. Hoyt",
+            "favorite": false
         },
         {
+            "id": 217,
             "name": "The Art of Mitch Foust",
             "desc": "<p>\n\t<span style=\"color: rgb(51, 51, 51); font-family: &quot;Libre Franklin&quot;, &quot;Helvetica Neue&quot;, helvetica, arial, sans-serif; font-size: 16px;\">Mitch Foust discovered a passion for Fantasy, art, and history at an early age. He started his art career producing comic books in the black and white comic boom of the 1980&rsquo;s. Foust has gone on to produce many illustrations for comics, book covers, role playing games, and t-shirts. Mitch has developed a fascination with textures and details in his work. He strives for as much realism as possible, creating his own unique look to his fantasy paintings. Since 2009, he has compiled his work into an annual Yearbook.&nbsp;<\/span><\/p>\n",
             "date": "2019-06-30",
@@ -2191,9 +2628,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Fan Panelist",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 218,
             "name": "Voices of The Fall Roundtable - The Black Tide Rising Anthology Continues",
             "desc": "<p>\n\tCome join John Ringo and his motley crew of authors for their roundtable on the next installment of the Black Tide Rising anthology. Will be followed by a mass autograph session. Gary Poole, Mod.<\/p>\n",
             "date": "2019-06-30",
@@ -2201,9 +2640,11 @@
             "length": "90",
             "loc": "CC: Ballroom F",
             "type": "Publisher",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 219,
             "name": "Voices of The Fall Mass Autograph Session ",
             "desc": "<p>\n\tMass Autograph Session immediately following the Voices of the Fall Roundtable.&nbsp;The Black Tide Rising Anthology Continues<\/p>\n",
             "date": "2019-06-30",
@@ -2211,9 +2652,11 @@
             "length": "30",
             "loc": "CC: Ballroom F",
             "type": "Editor",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 220,
             "name": "Author's Alley (Burkhead, J. Hunter, T. Lowery, J. Osborne, William Webb)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-30",
@@ -2221,9 +2664,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 221,
             "name": "Room reset after Kaffeeklatsch",
             "desc": "<p>\n\tRoom reset after Kaffeeklatsch<\/p>\n",
             "date": "2019-06-30",
@@ -2231,9 +2676,11 @@
             "length": "30",
             "loc": "M: Tennessee River Room",
             "type": "Professional Panelist",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 222,
             "name": "1632 Grantville Mass Autograph Session",
             "desc": "<p>\n\tMass autograph session immediately follows the 1632 Roundtable. Limit 2 books per person per pass thru the line.<\/p>\n",
             "date": "2019-06-30",
@@ -2241,9 +2688,11 @@
             "length": "30",
             "loc": "CC: Ballroom F",
             "type": "Editor",
-            "guestName": "Les Johnson"
+            "guestName": "Les Johnson",
+            "favorite": false
         },
         {
+            "id": 223,
             "name": "Humor in SF and Fantasy",
             "desc": "<p>\n\tEd McKeown moderates this panel on the tricks of the trade in adding humor to your science fiction or fantasy story or novel<\/p>\n",
             "date": "2019-06-30",
@@ -2251,9 +2700,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 224,
             "name": "Reading:  Nik Rao & Lou Antonelli",
             "desc": "<p>\n\tHear our authors read from their various works.<\/p>\n",
             "date": "2019-06-30",
@@ -2261,9 +2712,11 @@
             "length": "60",
             "loc": "M: Lookout Mountain Room",
             "type": "Artist",
-            "guestName": "Kimberly Richardson"
+            "guestName": "Kimberly Richardson",
+            "favorite": false
         },
         {
+            "id": 225,
             "name": "Paranormal Romance Panel and Fan Q&A - What's In and What's Out",
             "desc": "<p>\n\tAnna Grace Carpenter moderates this panel on what&#39;s current in the paranormal romance genre.<\/p>\n",
             "date": "2019-06-30",
@@ -2271,9 +2724,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Publisher",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 226,
             "name": "SIGMA, Futurism and Science Fiction ",
             "desc": "<p>\n\tDr. Arlan Andrews, the Director of SIGMA, the Science Fiction Think Tank that consults for the USG, will moderate this panel with other members of SIGMA on what they do and how science fiction informs futurism<\/p>\n",
             "date": "2019-06-30",
@@ -2281,9 +2736,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Author",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 227,
             "name": "What's New from Superversive Press",
             "desc": "<p>\n\tApril Freeman will moderate this roundtable discussion of what is new from the Superversive Press.<\/p>\n",
             "date": "2019-06-30",
@@ -2291,9 +2748,11 @@
             "length": "90",
             "loc": "CC: Ballroom E",
             "type": "Publisher",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 228,
             "name": "Superversive Press Mass Autograph Session",
             "desc": "<p>\n\tSuperversive Press Mass Autograph Session following the What&#39;s New from Superversive Press Roundtable.&nbsp;<\/p>\n",
             "date": "2019-06-30",
@@ -2301,9 +2760,11 @@
             "length": "30",
             "loc": "CC: Ballroom E",
             "type": "Editor",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 229,
             "name": "The New Voices of Horror",
             "desc": "<p>\n\tMichael H. Hanson moderates this panel on what new in the evolving genre of horror.<\/p>\n",
             "date": "2019-06-30",
@@ -2311,9 +2772,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 7",
             "type": "Author",
-            "guestName": "Chris Morris"
+            "guestName": "Chris Morris",
+            "favorite": false
         },
         {
+            "id": 230,
             "name": "Autograph Session (Sherrer)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-30",
@@ -2321,9 +2784,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 231,
             "name": "Autograph Session (David Butler, Les Johnson)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-30",
@@ -2331,9 +2796,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 232,
             "name": "Autograph Session (Humphreys, Meany, Rodgers, Woods)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-30",
@@ -2341,9 +2808,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 233,
             "name": "Autograph Session (Quincy Allen, David Boop)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-30",
@@ -2351,9 +2820,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 234,
             "name": "Autograph Session (Wohlrab)",
             "desc": "<p>\n\tAutograph sessions will be located in the Dealer&#39;s Room. Authors will cycle through hourly, except for the author&#39;s that have their own tables who will be available when they are not scheduled in the program. Limit 5 books (if you bring more, get 5 signed and go to the back of the line.)<\/p>\n",
             "date": "2019-06-30",
@@ -2361,9 +2832,11 @@
             "length": "60",
             "loc": "Dealer's Room (M: Plaza A\/B\/C Ballroom)",
             "type": "Editor",
-            "guestName": "Paul Bielaczyc"
+            "guestName": "Paul Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 235,
             "name": "Puppetry Workshop",
             "desc": "<p>\n\tBryan Jones hosts this workshop<span style=\"font-family: arial, sans-serif; font-size: 12.8px;\">&nbsp;on basic puppetry and puppet making.<\/span><\/p>\n",
             "date": "2019-06-30",
@@ -2371,9 +2844,11 @@
             "length": "90",
             "loc": "M: Tennessee River Room",
             "type": "Performer",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 236,
             "name": "Author's \/ Artist's Alley (Duntemann, J. Hunter, Ibson, Spriggs, Weyand)",
             "desc": "<p>\n\tCome by the Author&#39;s \/ Artist&#39;s Alley to chat, buy a book or get an autograph!<\/p>\n",
             "date": "2019-06-30",
@@ -2381,9 +2856,11 @@
             "length": "60",
             "loc": "Author's Alley (M: Plaza Ballroom Mezzanine)",
             "type": "Editor",
-            "guestName": "John Manning"
+            "guestName": "John Manning",
+            "favorite": false
         },
         {
+            "id": 237,
             "name": "Pantsing For Beginners",
             "desc": "<p>\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">Authors Rob Howell and Rich Weyand and Stephanie Osborn -- all write without an outline -- will teach their process for beginners who just can&#39;t seem to get that first novel done.<\/span><\/p>\n",
             "date": "2019-06-30",
@@ -2391,9 +2868,11 @@
             "length": "120",
             "loc": "M: Tennessee River Room",
             "type": "Performer",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 238,
             "name": "Kickstarter, Patreon and the World of Crowdfunding",
             "desc": "<p>\n\tArtist Guest of Honor Mitch Foust will host this discussion on Kickstarter, Patreon and the World of Crowdfunding.<\/p>\n",
             "date": "2019-06-30",
@@ -2401,9 +2880,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Author",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 239,
             "name": "Creature Features:  The Worlds of Bubba the Monster Hunter",
             "desc": "<p>\n\t<span style=\"font-family: Calibri, sans-serif; font-size: 14.6667px;\">Author and Master of Ceremonies John Hartness&nbsp; presents Creature Features &ndash; the Worlds of Bubba the Monster Hunter, where he will<\/span><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">&nbsp;talk about monsters he has used, and the critters in the expanded Bubbaverse books as well.<\/span><\/p>\n",
             "date": "2019-06-30",
@@ -2411,9 +2892,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Fan Panelist",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         },
         {
+            "id": 240,
             "name": "Changes in the Power Infrastructure ",
             "desc": "<p>\n\tJay Roye moderates this panel on the US and Global Power Infrastructure and how it is evolving.<\/p>\n",
             "date": "2019-06-30",
@@ -2421,9 +2904,11 @@
             "length": "60",
             "loc": "CC: Meeting Room 5",
             "type": "Author",
-            "guestName": "Janet Morris"
+            "guestName": "Janet Morris",
+            "favorite": false
         },
         {
+            "id": 241,
             "name": "New Manuscript Critique Workshop",
             "desc": "<p>\n\t<span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">John Holmes of Cannon Publishing will critique your new manuscript in this hands-on workshop - <\/span><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: small;\">3-5 pages max.<\/span><\/p>\n",
             "date": "2019-06-30",
@@ -2431,9 +2916,11 @@
             "length": "60",
             "loc": "M: Tennessee River Room",
             "type": "Performer",
-            "guestName": "Rich Groller"
+            "guestName": "Rich Groller",
+            "favorite": false
         },
         {
+            "id": 242,
             "name": "Hank Reinhardt Fight Team Demonstration",
             "desc": "<p>\n\tWhit Williams hosts the Hank Reinhardt Fight Team Demonstration.&nbsp;<\/p>\n",
             "date": "2019-06-30",
@@ -2441,9 +2928,11 @@
             "length": "120",
             "loc": "CC: Ballroom E",
             "type": "Scientist \/ Author",
-            "guestName": "Michael Bielaczyc"
+            "guestName": "Michael Bielaczyc",
+            "favorite": false
         },
         {
+            "id": 243,
             "name": "Science Fiction in Video Games",
             "desc": "<p>\n\t<span helvetica=\"\" style=\"font-family: \">Science Fiction in Video Games: A discussion on various types of science fiction types and tropes in video games over the years. What has been popular, what worked in the gaming world, what didn&rsquo;t, and what will be releasing in the near future.<\/span><span class=\"m_-8013329628395897995gmail-Apple-converted-space\" helvetica=\"\" style=\"font-family: \">&nbsp;Gerry Martin hosts.<\/span><\/p>\n",
             "date": "2019-06-30",
@@ -2451,7 +2940,8 @@
             "length": "60",
             "loc": "CC: Meeting Room 8",
             "type": "Author",
-            "guestName": "Jason Cordova"
+            "guestName": "Jason Cordova",
+            "favorite": false
         }
     ]
 }
