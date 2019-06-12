@@ -38,7 +38,7 @@ export class EventListComponent implements OnInit {
     dialogConfig.autoFocus = true;
     dialogConfig.data = {
       id: 1,
-      title: favTitle + ' Feedback'
+      title: favTitle + ' - Feedback'
     };
     const dialogRef = this.dialog.open(FeedbackDialogComponent, dialogConfig);
     dialogRef.afterClosed().subscribe(
