@@ -15,7 +15,7 @@
         <br />
         <div>
           <button type="button" class="btn" style="width: 75%;" (click)="removeFavorite(f)">
-            <i class="material-icons" style="font-size:30px;color:#aaed6e;">delete_outline</i>
+            <i class="material-icons" style="font-size:30px;color:#aaed6e;width:30px;">delete_outline</i>
           </button>
         </div>
         <div><button type="button" class="btn" style="width: 75%;" (click)="eventFeedback(f)">
@@ -27,6 +27,7 @@
   </mat-accordion>
 </div>
 <div *ngIf="favorites.length === 0">
-  Please add some Artists, Authors, Scientists, Events, drawings, clip art, something... Man this is a boring page...
-  you should choose stuff to attend... just sayin'
+  <p>Please add some Artists, Authors, Scientists, Events, drawings, clip art, something...</p>
+  <p>Man this is a boring page...</p>
+  <p>You should choose stuff to attend... just sayin'</p>
 </div>
