@@ -14,10 +14,14 @@ export class ArtistGuestsComponent implements OnInit {
 
   constructor(public globals: Globals) { }
 
-  setGuests() {
+  setArtists() {
+    console.log('Adding Artists');
     for (let a = 0; a < (this.globals.schedule).length; a++) {
-      this.artists.push(this.globals.schedule[a]);
+      if (this.globals.schedule[a].type === 'Artist') {
+        this.artists.push(this.globals.schedule[a]);
+      }
     }
+    console.log('Artists:', this.artists);
   }
 
   favoriteToggle(fav) {
@@ -53,7 +57,7 @@ export class ArtistGuestsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.setGuests();
+    this.setArtists();
   }
 
 }

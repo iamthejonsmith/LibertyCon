@@ -17,7 +17,6 @@ export class EventListComponent implements OnInit {
     for (let a = 0; a < (this.globals.favorites).length; a++) {
       this.favorites.push(this.globals.favorites[a]);
     }
-    console.log('favorites: ', this.favorites);
   }
 
   removeFavorite(index) {
@@ -30,8 +29,6 @@ export class EventListComponent implements OnInit {
     favItem.favorite = 'false';
     data.splice(idx, 1);
     this.favorites.splice(index, 1);
-    console.log('favorites after remove: ', this.favorites);
-    console.log('globals.favorites after remove: ', this.globals.favorites);
   }
 
   eventFeedback(index) {
