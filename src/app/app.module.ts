@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {
-  MatIconModule, MatButtonModule, MatSidenavModule, MatToolbarModule, MatCardModule, MatExpansionModule
+  MatIconModule, MatButtonModule, MatSidenavModule,
+  MatToolbarModule, MatCardModule, MatExpansionModule,
+  MatDialogModule, MatFormFieldModule, MatInputModule
 } from '@angular/material';
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -25,6 +27,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { EventListComponent } from './event-list/event-list.component';
 import { CreditsComponent } from './credits/credits.component';
 import { ConListComponent } from './con-list/con-list.component';
+import { FeedbackDialogComponent } from './feedback-dialog/feedback-dialog.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,8 @@ import { ConListComponent } from './con-list/con-list.component';
     ContactUsComponent,
     EventListComponent,
     CreditsComponent,
-    ConListComponent
+    ConListComponent,
+    FeedbackDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -48,6 +52,9 @@ import { ConListComponent } from './con-list/con-list.component';
     MatTabsModule,
     MatCardModule,
     MatExpansionModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
     NgbModule,
     BrowserAnimationsModule,
     AppRoutingModule,
@@ -59,6 +66,7 @@ import { ConListComponent } from './con-list/con-list.component';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [Globals, FactoryService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [FeedbackDialogComponent]
 })
 export class AppModule { }
