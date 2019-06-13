@@ -30,6 +30,21 @@ body{
 .mat-expansion-indicator::before, .mat-expansion-indicator::after {
   color: #aaed6e;
 }
+.mat-dialog-container {
+  background: #b0a286;
+}
+.mat-input-element {
+  caret-color: #aaed6e;
+}
+.mat-form-field-label {
+  color: #aaed6e !important;
+}
+.mat-form-field-underline {
+  background-color: #aaed6e !important;
+}
+.mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: #aaed6e !important;
+}
 app-root:empty + .loading {
   opacity: 1;
   z-index: 100;
