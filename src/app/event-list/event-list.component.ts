@@ -17,6 +17,23 @@ export class EventListComponent implements OnInit {
     for (let a = 0; a < (this.globals.favorites).length; a++) {
       this.favorites.push(this.globals.favorites[a]);
     }
+    this.setDate();
+  }
+
+  setDate() {
+    for (let i = 0; i < this.favorites.length; i++) {
+      switch (this.favorites[i].date) {
+        case ('2019-06-28'):
+          this.favorites[i].date = 'Friday';
+          break;
+        case ('2019-06-29'):
+          this.favorites[i].date = 'Saturday';
+          break;
+        case ('2019-06-30'):
+          this.favorites[i].date = 'Sunday';
+          break;
+      }
+    }
   }
 
   removeFavorite(index) {

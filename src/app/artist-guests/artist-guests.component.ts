@@ -25,6 +25,7 @@ export class ArtistGuestsComponent implements OnInit {
   }
 
   favoriteToggle(fav) {
+    console.log(fav);
     const id: any = fav.id;
     const data = this.globals.favorites;
     const data2 = this.globals.schedule;
@@ -38,7 +39,7 @@ export class ArtistGuestsComponent implements OnInit {
       } else {
         favItem = data2.find(i => i.id === id);
         favItem.favorite = 'true';
-        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time, loc: fav.loc, date: fav.date });
       }
       favItem = '';
     } else {
@@ -49,7 +50,7 @@ export class ArtistGuestsComponent implements OnInit {
         this.globals.favorites.splice(index, 1);
       } else {
         favItem.favorite = 'true';
-        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time, loc: fav.loc, date: fav.date });
       }
       favItem = '';
       index = null;

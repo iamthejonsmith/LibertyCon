@@ -32,7 +32,7 @@ export class ConListComponent implements OnInit {
       } else {
         favItem = data2.find(i => i.id === id);
         favItem.favorite = 'true';
-        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time, loc: fav.loc, date: fav.date });
         this.icon = 'star';
       }
       favItem = '';
@@ -45,7 +45,7 @@ export class ConListComponent implements OnInit {
         this.icon = 'star_border';
       } else {
         favItem.favorite = 'true';
-        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time });
+        this.globals.favorites.push({ id: fav.id, name: fav.name, time: fav.time, loc: fav.loc, date: fav.date });
         this.icon = 'star';
       }
       favItem = '';
