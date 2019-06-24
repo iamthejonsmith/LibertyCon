@@ -9,12 +9,14 @@
         </mat-panel-title>
       </mat-expansion-panel-header>
       <button type="button" class="btn" style="width: 100%; color:#b1f562;">
+        <b>Location:</b>&nbsp;<span style="color: #fffecb">{{fav.loc}}</span>
+        <br />
         <b>Date:</b>&nbsp;<span style="color: #fffecb">{{fav.date}}</span>
         <br />
         <b>Time:</b>&nbsp;<span style="color: #fffecb">{{fav.time}}</span>
         <br />
         <div>
-          <button type="button" class="btn icon" (click)="removeFavorite(f)">
+          <button type="button" class="btn icon" (click)="removeFav(fav.name, f)">
             <i class="material-icons" style="font-size:30px;color:#aaed6e;">delete_outline</i>
           </button>
           <button type="button" class="btn icon" (click)="eventFeedback(f)">

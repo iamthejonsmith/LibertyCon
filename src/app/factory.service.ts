@@ -10,6 +10,8 @@ export class FactoryService {
   providedIn: 'root'
 })
 export class Globals {
+  LocalFileSystem: any;
+  favs: any = 'fav.json';
   schedule: any[] = [];
   favorites: any[] = [];
 }
