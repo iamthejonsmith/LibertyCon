@@ -66,19 +66,11 @@ export class EventListComponent implements OnInit {
   }
 
   clearList() {
+    for (let i = 0; i < this.jsonFromFileObj.length; i++) {
+      this.jsonFromFileObj.splice(i, 1);
+    }
+    this.writeJsonToDrive();
     this.favorites = [];
-  }
-
-  removeFavorite(index) {
-    let favItem: any;
-    const data = this.globals.favorites;
-    const data2 = this.globals.schedule;
-    const id: any = this.favorites[index].id;
-    const idx = data.findIndex(x => x.id === id);
-    favItem = data2.find(i => i.id === id);
-    // favItem.favorite = 'false';
-    data.splice(idx, 1);
-    this.favorites.splice(index, 1);
   }
 
   removeFav(name, index) {
@@ -89,6 +81,17 @@ export class EventListComponent implements OnInit {
     }
     this.writeJsonToDrive();
     this.removeFavorite(index);
+  }
+
+  removeFavorite(index) {
+    let favItem: any;
+    const data = this.globals.favorites;
+    const data2 = this.globals.schedule;
+    const id: any = this.favorites[index].id;
+    const idx = data.findIndex(x => x.id === id);
+    favItem = data2.find(i => i.id === id);
+    data.splice(idx, 1);
+    this.favorites.splice(index, 1);
   }
 
   eventFeedback(index) {

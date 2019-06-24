@@ -361,7 +361,12 @@
             "image": "cf76d-lecturing2cropped.jpg",
             "type": "Scientist",
             "favorite": false,
-            "guestOfHonor": false
+            "guestOfHonor": false,
+            "schedule": [
+                "event1",
+                "event2",
+                "event3"
+            ]
         },
         {
             "id": "372",
@@ -377,9 +382,14 @@
             "name": "Fritz Fotovich",
             "bio": "In his non-con day job, Fritz is a non-starving artist masquerading as a logistics engineer contracting for the United States Government. While he does love his mundane work environment, he loves to spend his off time with His Favorite (Stacy), creating art at the Magic Manor, or playing in the Freakin Terrific Woodshop. There&rsquo;s no limit to what he will make and create. He gladly volunteers his skills to non-profits, businesses in need, friends, family, and friends of friends and family. Not only that, but he loves to cook and have a fun time no matter in what he does; including performing duties as a Steve Jackson Games MIB.\n",
             "image": "fotovich_fritz.jpg",
-            "type": "Fan \/ Artist",
+            "type": "Artist",
             "favorite": false,
-            "guestOfHonor": false
+            "guestOfHonor": false,
+            "schedule": [
+                "event1",
+                "event2",
+                "event3"
+            ]
         },
         {
             "id": "323",
@@ -1337,7 +1347,7 @@
         },
         {
             "id": "131",
-            "name": "Tim Bolgeo in Memorium",
+            "name": "Tim Bolgeo",
             "bio": "Richard Timothy 'Uncle Timmy' Bolgeo is the Chairman of LibertyCon Emeritus and an admitted (by everyone else, denied by him) Secret Master of Fandom (SMoF). A retired electrical engineer by profession with over 30 years with theTennessee Valley Authority (TVA), Uncle Timmy has been a permanent fixture in fandom since 1976. Fandom is a way of life in the Bolgeo clan, and his wife, two children and three grandchildren are no strangers to Southern Fandom. His daughter Brandy, has taken over as Chair of LibertyCon, and the family tradition lives on.\nA lifetime reader of Science Fiction and Fantasy (with a strong preference for Military Science Fiction), Uncle Timmy was Founder and Chairman of LibertyCon 1 - 25; original Board Member and Chairman of ChattaCon 7 - 11; and staff member at numerous conventions to include WorldCon, World Horror Con, World FantasyCon, and Con*Stellation. He is the long running Editor\/Publisher of the Fanzines The LibertyCon Newsletter (1987-1997) and The Revenge of Hump Day! (1997 to present). (To receive The Revenge, please send an email to Tim Bolgeo at tbolgeo@comcast.net)\nSome comments on Fandom from Uncle Timmy:\n\"Fandom is only a hobby. Family and work come first. But it is a beloved hobby that has brought me many hours fun and entertainment. Fandom has also brought me many great friends that I will cherish all my life and I am a fierce protector of these friends.\"\n\"I have been very fortunate to meet many of my private heroes through fandom and been blessed by becoming friends with a number of them.\"\n\"I have always enjoyed helping others who want to start conventions with administrative help or advice. I guess you could say that I take my role as 'Uncle Timmy' seriously when it comes to helping people when I can.\"\n\"About the only other convention that I work at on a consistent basis is Con*Stellation in Huntsville, AL. I run the \"Killer Cutthroat Spades Tournament\" there every year. \"Killer Cutthroat Spades\" is my passion and it has got me in trouble with a writer or two (See David Weber's Ashes of Honor and A Beautiful Friendship and Eric Flint's Time Spike).\n\"In fandom, I have had a few heroes, Wilson 'Bob' Tucker, Andre Norton, L. Sprague and Catherine Decamp, and Bob Adams. With regard to regular fans I never had any heroes, but I have definitely had a number of great friends who run other conventions. People like Ken Moore (Kubla Khan, Nashville), Sylvia Cox, Greg Bridges and Jeff Bango (MidSouthCon, Memphis), Chloie Airoldi (SatyriCon, Knoxville), Mark Paulk, Mike and Nelda Kennedy, Sam Smith (Con*Stellation, Huntsville), Rich and Michelle Zellich (Archon in the Old Days) and...hopefully, you get the idea.\"",
             "image": "bolgeo_tim.jpg",
             "type": "Fan \/ Scientist",
