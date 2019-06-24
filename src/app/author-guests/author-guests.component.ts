@@ -14,9 +14,9 @@ export class AuthorGuestsComponent implements OnInit {
   constructor(public globals: Globals) { }
 
   setGuests() {
-    for (let a = 0; a < (this.globals.schedule).length; a++) {
-      if (this.globals.schedule[a].type === 'Author') {
-        this.authors.push(this.globals.schedule[a]);
+    for (let a = 0; a < (this.globals.guests).length; a++) {
+      if (this.globals.guests[a].type === 'Author') {
+        this.authors.push(this.globals.guests[a]);
       }
     }
   }

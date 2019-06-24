@@ -1,7 +1,11 @@
 .title {
   font-weight: bold;
 }
-.icon {
+.deleteIcon {
     width: 30px;
     margin: 10px;
+}
+.feedbackIcon{
+    width: 30px;
+    margin: 50px;
 }

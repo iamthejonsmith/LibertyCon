@@ -12,4 +12,5 @@ export class FactoryService {
 export class Globals {
   schedule: any[] = [];
   favorites: any[] = [];
+  guests: any[] = [];
 }

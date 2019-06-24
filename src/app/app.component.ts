@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { Globals } from './factory.service';
 import { HttpClient } from '@angular/common/http';
 import * as scheduleJson from '../assets/data/schedule.json';
-
+import * as guestJson from '../assets/data/guests.json';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -23,6 +23,7 @@ export class AppComponent implements OnInit {
   setJsonFiles() {
     const promise = new Promise((resolve, reject) => {
       this.globals.schedule = scheduleJson.data;
+      this.globals.guests = guestJson.data;
       resolve();
     });
     return promise;

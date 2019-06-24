@@ -28,6 +28,13 @@ import { EventListComponent } from './event-list/event-list.component';
 import { CreditsComponent } from './credits/credits.component';
 import { ConListComponent } from './con-list/con-list.component';
 import { FeedbackDialogComponent } from './feedback-dialog/feedback-dialog.component';
+import { StorageServiceModule } from 'ngx-webstorage-service';
+import { MapComponent } from './map/map.component';
+import { AuthorPublisherComponent } from './author-publisher/author-publisher.component';
+import { EditorComponent } from './editor/editor.component';
+import { ProfessionalsComponent } from './professionals/professionals.component';
+import { FanGuestsComponent } from './fan-guests/fan-guests.component';
+import { PerformersComponent } from './performers/performers.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +48,13 @@ import { FeedbackDialogComponent } from './feedback-dialog/feedback-dialog.compo
     EventListComponent,
     CreditsComponent,
     ConListComponent,
-    FeedbackDialogComponent
+    FeedbackDialogComponent,
+    MapComponent,
+    AuthorPublisherComponent,
+    EditorComponent,
+    ProfessionalsComponent,
+    FanGuestsComponent,
+    PerformersComponent
   ],
   imports: [
     BrowserModule,
@@ -63,7 +76,8 @@ import { FeedbackDialogComponent } from './feedback-dialog/feedback-dialog.compo
     AngularFontAwesomeModule,
     HttpClientModule,
     ReactiveFormsModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    StorageServiceModule
   ],
   providers: [Globals, FactoryService],
   bootstrap: [AppComponent],

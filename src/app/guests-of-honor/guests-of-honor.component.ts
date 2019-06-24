@@ -14,8 +14,10 @@ export class GuestsOfHonorComponent implements OnInit {
   constructor(public globals: Globals) { }
 
   setGuests() {
-    for (let a = 0; a < (this.globals.schedule).length; a++) {
-      this.goh.push(this.globals.schedule[a]);
+    for (let a = 0; a < (this.globals.guests).length; a++) {
+      if (this.globals.guests[a].guestOfHonor === true) {
+        this.goh.push(this.globals.guests[a]);
+      }
     }
   }
 
