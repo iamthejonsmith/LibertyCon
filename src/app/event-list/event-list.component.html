@@ -1,4 +1,9 @@
-<div class='title'> My Event List</div>
+<div class='title'> My Event List
+  <button type="button" class="btn feedbackIcon" (click)="clearList()">
+    <i class="material-icons" style="font-size:30px;color:#aaed6e;">highlight_off</i>
+  </button>
+</div>
+
 <div *ngIf="favorites" id="favorites">
   <mat-accordion>
     <mat-expansion-panel class="accordionBtn" *ngFor="let fav of favorites, index as f"
@@ -16,10 +21,10 @@
         <b>Time:</b>&nbsp;<span style="color: #fffecb">{{fav.time}}</span>
         <br />
         <div>
-          <button type="button" class="btn icon" (click)="removeFav(fav.name, f)">
+          <button type="button" class="btn deleteIcon" (click)="removeFavorite(f)">
             <i class="material-icons" style="font-size:30px;color:#aaed6e;">delete_outline</i>
           </button>
-          <button type="button" class="btn icon" (click)="eventFeedback(f)">
+          <button type="button" class="btn feedbackIcon" (click)="eventFeedback(f)">
             <i class="material-icons" style="font-size:30px;color:#aaed6e;">feedback</i>
           </button>
         </div>

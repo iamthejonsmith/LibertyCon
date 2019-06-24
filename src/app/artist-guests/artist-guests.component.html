@@ -6,18 +6,14 @@
       <mat-expansion-panel-header style="background: #5e503d;">
         <mat-panel-title style="color:#aaed6e;">
           <b>{{val.name}}</b>
-          <b>{{val.time}}</b>
         </mat-panel-title>
       </mat-expansion-panel-header>
       <button type="button" class="btn" style="width: 100%; color:#b1f562;">
-        <b>Date:</b>&nbsp;<span style="color: #fffecb">{{val.date}}</span>
-        <br />
-        <b>Time:</b>&nbsp;<span style="color: #fffecb">{{val.time}}</span>
-        <br />
-        <br />
-        <b>Location:</b>&nbsp;<span style="color: #fffecb">{{val.loc}}</span>
-        <br />
-        <div style="border: 1px solid black;" [innerHTML]="val.desc">{{val.name}}</div>
+        <div class="bio">
+          <b>{{val.bio}}</b>
+          <br />
+        </div>
+        <div style="border: 1px solid black;" [innerHTML]="val.desc">{{val.bio}}</div>
         <div>
           <button type="button" class="btn" style="width: 75%;" (click)="favoriteToggle(val)">
             <i class="material-icons favIcon" *ngIf="val.favorite === true || val.favorite === 'true'">{{starFilled}}</i>
@@ -26,9 +22,16 @@
             Add To My List
           </button>
         </div>
-        <span *ngIf="val.name !== val.section"><b>Featured Guests:</b>&nbsp;{{val.guestName}}</span>
-        <!-- <br *ngIf="val.name !== val.section" />
-        <div style="border: 1px solid #995b4d;" [innerHTML]="val.desc"></div> -->
+        <div class="schedule">
+          Schedule:
+          <b>Date:</b>&nbsp;<span style="color: #fffecb">{{val.date}}</span>
+          <br />
+          <b>Time:</b>&nbsp;<span style="color: #fffecb">{{val.time}}</span>
+          <br />
+          <br />
+          <b>Location:</b>&nbsp;<span style="color: #fffecb">{{val.location}}</span>
+          <br />
+        </div>
       </button>
     </mat-expansion-panel>
   </mat-accordion>

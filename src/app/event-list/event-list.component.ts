@@ -2,6 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialogConfig, MatDialog } from '@angular/material';
 import { Globals } from '../factory.service';
 import { FeedbackDialogComponent } from '../feedback-dialog/feedback-dialog.component';
+import { Inject, Injectable } from '@angular/core';
+import { LOCAL_STORAGE, StorageService } from 'ngx-webstorage-service';
+
+// key that is used to access the data in local storage
+const STORAGE_KEY = 'local_favorites';
 
 declare const window: any;
 declare const LocalFileSystem: any;
@@ -23,6 +28,8 @@ export class EventListComponent implements OnInit {
   jsonFromFileObj: any = [];
   entriesToRemove: any[];
   favorites: any[] = new Array();
+  favorites2 = [];
+
   public icon = 'star_border';
   constructor(public globals: Globals, private dialog: MatDialog) {
     this.getDomVals();
@@ -56,6 +63,10 @@ export class EventListComponent implements OnInit {
           break;
       }
     }
+  }
+
+  clearList() {
+    this.favorites = [];
   }
 
   removeFavorite(index) {

@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { Globals } from './factory.service';
 import { HttpClient } from '@angular/common/http';
 import * as scheduleJson from '../assets/data/schedule.json';
+import * as guestJson from '../assets/data/guests.json';
 
 declare const device;
 declare const window;
@@ -50,6 +51,7 @@ export class AppComponent implements OnInit {
   setJsonFiles() {
     const promise = new Promise((resolve, reject) => {
       this.globals.schedule = scheduleJson.data;
+      this.globals.guests = guestJson.data;
       resolve();
     });
     return promise;
@@ -71,10 +73,10 @@ export class AppComponent implements OnInit {
   setFavorites() {
     this.getFavsOnLoad()
       .then(() => {
-      for (let f = 0; f < this.favObj.length; f++) {
-        this.globals.favorites.push(this.favObj[f]);
-      }
-    });
+        for (let f = 0; f < this.favObj.length; f++) {
+          this.globals.favorites.push(this.favObj[f]);
+        }
+      });
   }
 
   redirectTo(uri: string) {

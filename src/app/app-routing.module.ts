@@ -11,6 +11,12 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { EventListComponent } from './event-list/event-list.component';
 import { CreditsComponent } from './credits/credits.component';
 import { ConListComponent } from './con-list/con-list.component';
+import { MapComponent } from './map/map.component';
+import { AuthorPublisherComponent } from './author-publisher/author-publisher.component';
+import { EditorComponent } from './editor/editor.component';
+import { FanGuestsComponent } from './fan-guests/fan-guests.component';
+import { PerformersComponent } from './performers/performers.component';
+import { ProfessionalsComponent } from './professionals/professionals.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/Splash', pathMatch: 'full' },
@@ -22,7 +28,13 @@ const routes: Routes = [
   { path: 'ContactUs', component: ContactUsComponent },
   { path: 'EventList', component: EventListComponent },
   { path: 'Credits', component: CreditsComponent },
-  { path: 'Schedule', component: ConListComponent }
+  { path: 'Schedule', component: ConListComponent },
+  { path: 'Map', component: MapComponent },
+  { path: 'Publishers', component: AuthorPublisherComponent },
+  { path: 'Editors', component: EditorComponent },
+  { path: 'FanGuests', component: FanGuestsComponent },
+  { path: 'Performers', component: PerformersComponent },
+  { path: 'Professionals', component: ProfessionalsComponent }
 ];
 export const appRouting = RouterModule.forRoot(routes);
 

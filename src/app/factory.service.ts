@@ -14,4 +14,5 @@ export class Globals {
   favs: any = 'fav.json';
   schedule: any[] = [];
   favorites: any[] = [];
+  guests: any[] = [];
 }

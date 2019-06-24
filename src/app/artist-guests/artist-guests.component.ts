@@ -53,9 +53,9 @@ export class ArtistGuestsComponent implements OnInit {
   }
 
   setArtists() {
-    for (let s = 0; s < (this.globals.schedule).length; s++) {
-      if (this.globals.schedule[s].type === 'Artist') {
-        this.artists.push(this.globals.schedule[s]);
+    for (let a = 0; a < (this.globals.guests).length; a++) {
+      if (this.globals.guests[a].type === 'Artist') {
+        this.artists.push(this.globals.guests[a]);
       }
     }
     this.setFavorites();
@@ -74,7 +74,9 @@ export class ArtistGuestsComponent implements OnInit {
   favoriteToggle(fav) {
     const id: any = fav.id;
     const data = this.globals.favorites;
-    const data2 = this.artists;
+    /* const data2 = this.globals.schedule;  changing data source to actual guest list for panels*/
+    /* const data2 = this.globals.guests; Brian's incoming guest source */
+    const data2 = this.artists; // JSON Guest list from (GUESTS.JSON)
     if (data.length > 0) {
       let favItem = data.find(i => i.id === id);
       if (favItem !== undefined) {

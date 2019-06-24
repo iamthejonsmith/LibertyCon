@@ -14,9 +14,9 @@ export class ScientificGuestsComponent implements OnInit {
   constructor(public globals: Globals) { }
 
   setGuests() {
-    for (let a = 0; a < (this.globals.schedule).length; a++) {
-      if (this.globals.schedule[a].type === 'Scientist') {
-        this.scientists.push(this.globals.schedule[a]);
+    for (let a = 0; a < (this.globals.guests).length; a++) {
+      if (this.globals.guests[a].type === 'Scientist' || this.globals.guests[a].type === 'Author \/ Scientist') {
+        this.scientists.push(this.globals.guests[a]);
       }
     }
   }
@@ -24,7 +24,8 @@ export class ScientificGuestsComponent implements OnInit {
   favoriteToggle(fav) {
     const id: any = fav.id;
     const data = this.globals.favorites;
-    const data2 = this.globals.schedule;
+    /* const data2 = this.globals.schedule;  changing data source to actual guest list for panels*/
+    const data2 = this.globals.guests;
     if (data.length > 0) {
       let favItem = data.find(i => i.id === id);
       if (favItem !== undefined) {
