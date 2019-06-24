@@ -20,7 +20,7 @@
         <div style="border: 1px solid black;" [innerHTML]="val.desc">{{val.name}}</div>
         <div>
           <button type="button" class="btn" style="width: 75%;" (click)="favoriteToggle(val)">
-            <i class="material-icons favIcon" *ngIf="val.favorite === 'true'">{{starFilled}}</i>
+            <i class="material-icons favIcon" *ngIf="val.favorite === true || val.favorite === 'true'">{{starFilled}}</i>
             <i class="material-icons favIcon"
               *ngIf="val.favorite === false || val.favorite === 'false'">{{starBorder}}</i>
             Add To My List

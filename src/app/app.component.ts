@@ -27,6 +27,9 @@ export function getAppLocation() {
   return appLocation;
 }
 
+let storeFile: any;
+const requestBytes = 10 * 1024 * 1024;
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -39,6 +42,7 @@ export class AppComponent implements OnInit {
   navLinks: any[];
   activeLinkIndex = -1;
   data: any;
+  favObj: any[];
 
   constructor(private router: Router, public globals: Globals, private httpClient: HttpClient, private _location: Location) {
   }
@@ -64,8 +68,17 @@ export class AppComponent implements OnInit {
     }
   }
 
+  setFavorites() {
+    this.getFavsOnLoad()
+      .then(() => {
+      for (let f = 0; f < this.favObj.length; f++) {
+        this.globals.favorites.push(this.favObj[f]);
+      }
+    });
+  }
+
   redirectTo(uri: string) {
-    this.router.navigateByUrl('/Credits', { skipLocationChange: true }).then(() =>
+    this.router.navigateByUrl('/EventList', { skipLocationChange: true }).then(() =>
       this.router.navigate([uri]));
   }
 
@@ -105,18 +118,43 @@ export class AppComponent implements OnInit {
     }
   }
 
+  getFavsOnLoad() {
+    const storedFileSystem = this.globals.LocalFileSystem;
+    storeFile = this.globals.favs;
+    const fav = this;
+    const promise = new Promise((resolve, reject) => {
+      window.requestFileSystem(
+        (storedFileSystem === 'ios' ? LocalFileSystem.PERSISTENT : window.PERSISTENT), requestBytes, (fileSystem) => {
+          fileSystem.root.getFile(storeFile, {}, function (fileEntry) {
+            fileEntry.file(function (file) {
+              const reader2 = new FileReader();
+              reader2.onloadend = function (e) {
+                if (file.size !== 0) { fav.favObj = JSON.parse((reader2.result).toString()); } else { fav.favObj = []; }
+                resolve();
+              };
+              reader2.readAsText(file);
+            }, fav.errorHandler);
+          }, fav.errorHandler);
+        }, function (e) {
+          fav.errorHandler(e);
+          reject();
+        });
+    });
+    return promise;
+  }
+
   goBack() {
     this._location.back();
   }
 
   ngOnInit() {
-    const storeFile = this.globals.favs;
-    const requestBytes = 10 * 1024 * 1024;
+    storeFile = this.globals.favs;
     const fav = this;
     let storedFileSystem: any;
     this.setJsonFiles();
     this.getData();
     this.setTime();
+    this.setFavorites();
     function confirmCallback(buttonIndex) {
       if (buttonIndex === 1) {
         navigator.appCodeName.exitApp();

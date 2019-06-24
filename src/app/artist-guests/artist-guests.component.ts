@@ -53,20 +53,28 @@ export class ArtistGuestsComponent implements OnInit {
   }
 
   setArtists() {
-    console.log('Adding Artists');
-    for (let a = 0; a < (this.globals.schedule).length; a++) {
-      if (this.globals.schedule[a].type === 'Artist') {
-        this.artists.push(this.globals.schedule[a]);
+    for (let s = 0; s < (this.globals.schedule).length; s++) {
+      if (this.globals.schedule[s].type === 'Artist') {
+        this.artists.push(this.globals.schedule[s]);
       }
     }
-    console.log('Artists:', this.artists);
+    this.setFavorites();
+  }
+
+  setFavorites() {
+    for (let a = 0; a < (this.globals.favorites).length; a++) {
+      for (let b = 0; b < this.artists.length; b++) {
+        if (this.globals.favorites[a].id === (this.artists[b].id).toString()) {
+          this.artists[b].favorite = true;
+        }
+      }
+    }
   }
 
   favoriteToggle(fav) {
-    console.log(fav);
     const id: any = fav.id;
     const data = this.globals.favorites;
-    const data2 = this.globals.schedule;
+    const data2 = this.artists;
     if (data.length > 0) {
       let favItem = data.find(i => i.id === id);
       if (favItem !== undefined) {
@@ -93,13 +101,13 @@ export class ArtistGuestsComponent implements OnInit {
       favItem = '';
       index = null;
     }
-    this.toggleFav(fav.name, fav.loc, fav.date, fav.time);
+    this.toggleFav(fav.id, fav.name, fav.loc, fav.date, fav.time);
   }
 
-  toggleFav(name, loc, date, time) {
+  toggleFav(id, name, loc, date, time) {
     const storedFileSystem = this.globals.LocalFileSystem;
     const favThis = this;
-    const jsonStringObj = JSON.parse('{ "name": "' + name + '", "loc": "' + loc
+    const jsonStringObj = JSON.parse('{ "id": "' + id + '", "name": "' + name + '", "loc": "' + loc
       + '", "date": "' + date + '", "time": "' + time + '", "favorite": true }');
     if (storedFileSystem === 'ios') {
       window.requestFileSystem(LocalFileSystem.PERSISTENT, requestBytes, function (fileSystem) {
@@ -181,7 +189,6 @@ export class ArtistGuestsComponent implements OnInit {
                       storedDataObj.push(jsonStringObj);
                     }
                     json = JSON.stringify(storedDataObj);
-                    console.log('storedData: ', json);
                   } catch (e) { favThis.errorHandler(e); }
                   const blob = new Blob([json], { type: 'application/json' });
                   fileWriter.write(blob);

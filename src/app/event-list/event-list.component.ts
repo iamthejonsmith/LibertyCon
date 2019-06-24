@@ -32,6 +32,7 @@ export class EventListComponent implements OnInit {
     if (this.favObj !== []) {
       for (let f = 0; f < this.favObj.length; f++) {
         this.favorites.push(this.favObj[f]);
+        this.globals.favorites.push(this.favObj[f]);
       }
     } else {
       for (let a = 0; a < (this.globals.favorites).length; a++) {
@@ -64,7 +65,7 @@ export class EventListComponent implements OnInit {
     const id: any = this.favorites[index].id;
     const idx = data.findIndex(x => x.id === id);
     favItem = data2.find(i => i.id === id);
-    favItem.favorite = 'false';
+    // favItem.favorite = 'false';
     data.splice(idx, 1);
     this.favorites.splice(index, 1);
   }
