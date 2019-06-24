@@ -1,6 +1,6 @@
 <div class='title'>Liberty Con Schedule</div>
 <div>
-  <div *ngIf="artists" id="artists">
+  <div *ngIf="schedule" id="schedule">
     <mat-accordion>
       <mat-expansion-panel class="accordionBtn" style="margin-left: auto; margin-right: auto; background: #efe5d5;">
         <mat-expansion-panel-header style="background: #5e503d;">
@@ -9,7 +9,7 @@
           </mat-panel-title>
         </mat-expansion-panel-header>
         <mat-accordion>
-          <ng-container *ngFor="let val of artists">
+          <ng-container *ngFor="let val of schedule">
             <mat-expansion-panel class="accordionBtn" *ngIf="val.date === '2019-06-28'"
               style="margin-left: auto; margin-right: auto; background: #5e503d;">{{val.name}}
               <mat-expansion-panel-header style="background: #5e503d;">
@@ -47,7 +47,7 @@
           </mat-panel-title>
         </mat-expansion-panel-header>
         <mat-accordion>
-          <ng-container *ngFor="let val of artists">
+          <ng-container *ngFor="let val of schedule">
             <mat-expansion-panel class="accordionBtn" *ngIf="val.date === '2019-06-29'"
               style="margin-left: auto; margin-right: auto; background: #5e503d;">{{val.name}}
               <mat-expansion-panel-header style="background: #5e503d;">
@@ -83,7 +83,7 @@
           </mat-panel-title>
         </mat-expansion-panel-header>
         <mat-accordion>
-          <ng-container *ngFor="let val of artists">
+          <ng-container *ngFor="let val of schedule">
             <mat-expansion-panel class="accordionBtn" *ngIf="val.date === '2019-06-30'"
               style="margin-left: auto; margin-right: auto; background: #5e503d;">{{val.name}}
               <mat-expansion-panel-header style="background: #5e503d;">
@@ -100,7 +100,11 @@
                 <div style="border: 1px solid black;" [innerHTML]="val.desc">{{val.name}}</div>
                 <div>
                   <button type="button" class="btn" style="width: 75%;" (click)="favoriteToggle(val)">
-                    <i class="material-icons favIcon">{{icon}}</i>
+                    <!-- <i class="material-icons favIcon">{{icon}}</i> -->
+                    <i class="material-icons favIcon"
+                      *ngIf="val.favorite === true || val.favorite === 'true'">{{starFilled}}</i>
+                    <i class="material-icons favIcon"
+                      *ngIf="val.favorite === false || val.favorite === 'false'">{{starBorder}}</i>
                     Add To My List
                   </button>
                 </div>
