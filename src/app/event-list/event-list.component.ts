@@ -67,6 +67,8 @@ export class EventListComponent implements OnInit {
 
   clearList() {
     this.favorites = [];
+    this.jsonFromFileObj = [];
+    this.writeJsonToDrive();
   }
 
   removeFavorite(index) {
