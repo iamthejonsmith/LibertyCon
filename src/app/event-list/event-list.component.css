@@ -9,3 +9,8 @@
     width: 30px;
     margin: 50px;
 }
+.clearButton {
+  border: 1px solid black;
+  background: #454938;
+  margin: 50px;
+}

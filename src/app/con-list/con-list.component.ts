@@ -68,6 +68,11 @@ export class ConListComponent implements OnInit {
         }
       }
     }
+    if ((this.globals.favorites).length === 0) {
+      for (let c = 0; c < this.schedule.length; c++) {
+        this.schedule[c].favorite = false;
+      }
+    }
   }
 
   favoriteToggle(fav) {
